@@ -98,7 +98,7 @@ function CartPage() {
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
-
+	
       setSubmitted(true)
       clearCart()
     } catch (err) {
@@ -106,6 +106,13 @@ function CartPage() {
       setSubmitError(true)
     } finally {
       setSubmitting(false)
+	useEffect(() => {
+  		console.log("ENV CHECK:", {
+    service: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    template: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    key: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+  })
+}, [])
     }
   }
 
