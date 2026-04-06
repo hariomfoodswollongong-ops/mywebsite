@@ -2,11 +2,18 @@ import { createFileRoute, Link } from '@tanstack/react-router'
 import { useState } from 'react'
 import { useCart } from '@/lib/cart'
 import emailjs from '@emailjs/browser'
+import { useEffect } from 'react'
 
 export const Route = createFileRoute('/cart')({
   component: CartPage,
 })
-
+useEffect(() => {
+  		console.log("ENV CHECK:", {
+    service: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    template: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    key: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+  })
+}, [])
 function CartPage() {
   const { items, removeFromCart, updateQuantity, clearCart, totalPrice } =
     useCart()
@@ -106,13 +113,6 @@ function CartPage() {
       setSubmitError(true)
     } finally {
       setSubmitting(false)
-	useEffect(() => {
-  		console.log("ENV CHECK:", {
-    service: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-    template: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-    key: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-  })
-}, [])
     }
   }
 
