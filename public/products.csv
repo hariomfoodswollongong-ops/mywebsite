@@ -1,8 +1,3 @@
-id,name,price,image,description,stock
-1,Ceramic Coffee Mug,18.99,/a.jpg,Hand-thrown ceramic mug with a comfortable handle and a classic glaze. Holds 12oz and is dishwasher safe.,10
-2,Linen Tote Bag,34.5,/a.jpg,Durable natural linen tote with reinforced handles. Perfect for grocery runs or a day at the beach.,2
-3,Soy Wax Candle,22,a.jpg,Clean-burning soy wax candle with a cotton wick. Available in lavender and eucalyptus scents. Burns for up to 40 hours.,3
-4,Bamboo Cutting Board,45,,Sustainably sourced bamboo cutting board with juice grooves. Naturally antibacterial and easy on knife edges.,4
-5,Stainless Steel Water Bottle,28.75,,Double-wall insulated bottle that keeps drinks cold for 24 hours or hot for 12. BPA-free with a leak-proof lid.,0
-6,Manish,10,Manish.png,,10
-7,Reshma,30,reshma.png,,20
+Id,name,description,price,image,stock
+,LaxmiNarayan Snacks,,,,10
+1,Best (Poha) Chivda,400 g,AUD 8.10,LaxmiNarayan Best Chivda (Poha).jpg,2
