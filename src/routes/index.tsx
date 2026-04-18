@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { fetchProducts, type Product } from '@/lib/products'
 import { useCart } from '@/lib/cart'
 
@@ -20,8 +20,6 @@ function AddToCartButton({ product }: { product: Product }) {
 
   return (
     <div className="flex items-center gap-2 mt-3">
-      
-      {/* Quantity */}
       <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
         <button
           onClick={() => setQty((q) => Math.max(1, q - 1))}
@@ -40,7 +38,6 @@ function AddToCartButton({ product }: { product: Product }) {
         </button>
       </div>
 
-      {/* Button */}
       <button
         onClick={handleAdd}
         disabled={product.stock === 0}
@@ -53,36 +50,38 @@ function AddToCartButton({ product }: { product: Product }) {
               : 'bg-indigo-600 hover:bg-indigo-700 text-white'
           }`}
       >
-        {product.stock === 0
-          ? 'Out of Stock'
-          : added
-          ? '✓ Added'
-          : 'Add'}
+        {product.stock === 0 ? 'Out of Stock' : added ? '✓ Added' : 'Add'}
       </button>
     </div>
   )
 }
 
+export const formatPrice = (price: number) =>
+  new Intl.NumberFormat('en-AU', {
+    style: 'currency',
+    currency: 'AUD',
+  }).format(price)
+
 function ProductCard({ product }: { product: Product }) {
+  const brand = product?.brand || 'Other'
+
   return (
     <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col group">
       
-      {/* 🖼 Image */}
-      <div className="aspect-[4/3] bg-gray-100 overflow-hidden relative">
+      {/* Image */}
+      <div className="aspect-[4/3] bg-gray-100 flex items-center justify-center overflow-hidden relative">
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+          className="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105 p-2"
         />
 
-        {/* 🔴 Out of Stock badge */}
         {product.stock === 0 && (
           <span className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
             Out of Stock
           </span>
         )}
 
-        {/* 🟢 Stock count */}
         {product.stock > 0 && (
           <span className="absolute top-2 left-2 bg-green-100 text-green-700 text-xs px-2 py-1 rounded">
             {product.stock} left
@@ -90,10 +89,15 @@ function ProductCard({ product }: { product: Product }) {
         )}
       </div>
 
-      {/* 📦 Content */}
+      {/* Content */}
       <div className="p-4 flex flex-col flex-1">
-        
-        {/* Product Name */}
+
+        {/* Brand */}
+        <p className="text-xs text-indigo-500 mb-1 font-medium">
+          {brand}
+        </p>
+
+        {/* Name */}
         <h2 className="text-base font-semibold text-gray-800 mb-1 line-clamp-1">
           {product.name}
         </h2>
@@ -105,19 +109,17 @@ function ProductCard({ product }: { product: Product }) {
           </p>
         )}
 
-        {/* 💰 Price */}
+        {/* Price */}
         <div className="flex items-center justify-between mt-auto mb-3">
           <span className="text-lg font-bold text-indigo-600">
-            ${product.price.toFixed(2)}
+            {product.price > 0 ? formatPrice(product.price) : '—'}
           </span>
 
-          {/* Small badge */}
           <span className="text-xs bg-indigo-100 text-indigo-600 px-2 py-1 rounded">
             Best Price
           </span>
         </div>
 
-        {/* ➕ Add to Cart */}
         <AddToCartButton product={product} />
       </div>
     </div>
@@ -129,6 +131,7 @@ function CatalogPage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
   const [search, setSearch] = useState('')
+  const [selectedBrand, setSelectedBrand] = useState('All')
 
   useEffect(() => {
     fetchProducts()
@@ -137,12 +140,37 @@ function CatalogPage() {
       .finally(() => setLoading(false))
   }, [])
 
-  // 🔍 Filter logic
-  const filteredProducts = products.filter((p) =>
-    `${p.name} ${p.description || ''}`
-      .toLowerCase()
-      .includes(search.toLowerCase())
-  )
+  // 🏷 Brand list
+  const brands = useMemo(() => {
+    const set = new Set<string>()
+    products.forEach((p) => set.add(p.brand || 'Other'))
+    return Array.from(set)
+  }, [products])
+
+  // 🔍 + 🏷 FILTER COMBINED
+  const filteredProducts = useMemo(() => {
+    return products.filter((p) => {
+      const matchesSearch =
+        `${p.name} ${p.description || ''}`
+          .toLowerCase()
+          .includes(search.toLowerCase())
+
+      const matchesBrand =
+        selectedBrand === 'All' || (p.brand || 'Other') === selectedBrand
+
+      return matchesSearch && matchesBrand
+    })
+  }, [products, search, selectedBrand])
+
+  // 📦 GROUP AFTER FILTER
+  const groupedProducts = useMemo(() => {
+    return filteredProducts.reduce((acc, product) => {
+      const brand = product.brand || 'Other'
+      if (!acc[brand]) acc[brand] = []
+      acc[brand].push(product)
+      return acc
+    }, {} as Record<string, Product[]>)
+  }, [filteredProducts])
 
   if (loading) {
     return (
@@ -162,17 +190,17 @@ function CatalogPage() {
 
   return (
     <>
-      {/* 🔍 Header */}
+      {/* Header */}
       <div className="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Product List</h1>
           <p className="text-sm text-gray-500">
-            {filteredProducts.length} product
-            {filteredProducts.length !== 1 ? 's' : ''} found
+            {filteredProducts.length} product(s) found
           </p>
         </div>
 
-        {/* 🔍 Search Input */}
+        {/* Search */}
         <div className="relative w-full sm:w-80">
           <input
             type="text"
@@ -181,26 +209,62 @@ function CatalogPage() {
             onChange={(e) => setSearch(e.target.value)}
             className="w-full border border-gray-300 rounded-lg px-4 py-2 pl-10 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
-
-          {/* Icon */}
-          <span className="absolute left-3 top-2.5 text-gray-400">
-            🔍
-          </span>
+          <span className="absolute left-3 top-2.5 text-gray-400">🔍</span>
         </div>
       </div>
 
-      {/* ❌ No results */}
+      {/* 🏷 BRAND FILTER */}
+      <div className="flex gap-2 flex-wrap mb-6">
+        <button
+          onClick={() => setSelectedBrand('All')}
+          className={`px-3 py-1 rounded-full text-sm border ${
+            selectedBrand === 'All'
+              ? 'bg-indigo-600 text-white'
+              : 'bg-white text-gray-700'
+          }`}
+        >
+          All
+        </button>
+
+        {brands.map((brand) => (
+          <button
+            key={brand}
+            onClick={() => setSelectedBrand(brand)}
+            className={`px-3 py-1 rounded-full text-sm border ${
+              selectedBrand === brand
+                ? 'bg-indigo-600 text-white'
+                : 'bg-white text-gray-700'
+            }`}
+          >
+            {brand}
+          </button>
+        ))}
+      </div>
+
+      {/* No results */}
       {filteredProducts.length === 0 ? (
         <p className="text-center text-gray-500 py-16">
           No products match your search.
         </p>
       ) : (
-        /* ✅ Product Grid */
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredProducts.map((p) => (
-            <ProductCard key={p.id} product={p} />
-          ))}
-        </div>
+        Object.entries(groupedProducts).map(([brand, items]) => (
+          <div key={brand} className="mb-10">
+
+            {/* Brand Header */}
+            <div className="mb-4 flex items-center gap-3">
+              <div className="h-1 w-10 bg-indigo-600 rounded-full" />
+              <h2 className="text-xl font-bold text-gray-900">{brand}</h2>
+            </div>
+
+            {/* Products */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {items.map((p) => (
+                <ProductCard key={p.id} product={p} />
+              ))}
+            </div>
+
+          </div>
+        ))
       )}
     </>
   )
