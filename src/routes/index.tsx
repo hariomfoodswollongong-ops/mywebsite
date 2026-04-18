@@ -151,7 +151,7 @@ function CatalogPage() {
   const filteredProducts = useMemo(() => {
     return products.filter((p) => {
       const matchesSearch =
-        `${p.name} ${p.description || ''}`
+        `${p.name} ${p.description || ''} ${p.brand || ''}`
           .toLowerCase()
           .includes(search.toLowerCase())
 

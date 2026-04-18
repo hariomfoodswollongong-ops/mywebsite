@@ -35,7 +35,7 @@ function CartPage() {
 
     // ✅ Validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-    const phoneRegex = /^(4\d{8}|04\d{8})$/ // supports 412... and 0412...
+    const phoneRegex = /^(4\d{8}|04\d{8})$/ // AU mobile
 
     const isEmailValid = !form.email || emailRegex.test(form.email)
 
@@ -55,7 +55,6 @@ function CartPage() {
       }
       const fullPhone = `+61${normalized}`
 
-      // ✅ Build HTML table
       const rows = items
         .map(
           ({ product, quantity }) => `
@@ -120,7 +119,7 @@ function CartPage() {
     }
   }
 
-  // ✅ Success Page
+  // ✅ Success Screen
   if (submitted) {
     return (
       <div className="max-w-lg mx-auto text-center py-20">
@@ -160,7 +159,7 @@ function CartPage() {
       ) : (
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
-          {/* 🛒 Cart Items */}
+          {/* 🛒 Items */}
           <div className="lg:col-span-2 space-y-4">
             {items.map(({ product, quantity }) => (
               <div
@@ -193,10 +192,28 @@ function CartPage() {
             ))}
           </div>
 
-          {/* 🧾 Summary + Form */}
+          {/* 🧾 Summary */}
           <div className="bg-white border p-6 rounded-xl">
-            <h2 className="font-bold mb-4">Order Summary</h2>
 
+            {/* Header + Clear Cart */}
+            <div className="mb-4 flex justify-between items-center">
+              <h2 className="font-bold">Order Summary</h2>
+
+              <button
+                type="button"
+                onClick={() => {
+                  const confirmClear = window.confirm(
+                    'Are you sure you want to clear the cart?'
+                  )
+                  if (confirmClear) clearCart()
+                }}
+                className="text-xs text-red-600 hover:text-red-800 font-medium"
+              >
+                🗑 Clear Cart
+              </button>
+            </div>
+
+            {/* Summary */}
             <div className="mb-4 text-sm">
               {items.map(({ product, quantity }) => (
                 <div key={product.id} className="flex justify-between">
@@ -211,18 +228,18 @@ function CartPage() {
               </div>
             </div>
 
-            {/* 📢 Header */}
-            <div className="bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-200 p-4 rounded-lg mb-2 text-center">
-  <p className="text-sm text-indigo-800 font-semibold tracking-wide">
-    Please provide your details to complete the order
-  </p>
-</div>
+            {/* Info */}
+            <div className="bg-indigo-50 border border-indigo-200 p-4 rounded-lg mb-2 text-center">
+              <p className="text-sm text-indigo-800 font-medium">
+                Please provide your details to complete the order
+              </p>
+            </div>
 
             <p className="text-xs text-gray-500 mb-4">
-              Email optional. Enter mobile: 412345678 or 0412345678
+              Email optional. Mobile: 412345678 or 0412345678
             </p>
 
-            {/* 📝 Form */}
+            {/* Form */}
             <form onSubmit={handleSubmit} className="space-y-3">
 
               <input
@@ -243,9 +260,9 @@ function CartPage() {
                 className="w-full border p-2 rounded"
               />
 
-              {/* 📱 Phone */}
+              {/* Phone */}
               <div className="flex">
-                <span className="inline-flex items-center px-3 border border-r-0 border-gray-300 bg-gray-100 text-gray-600 rounded-l">
+                <span className="px-3 border border-r-0 bg-gray-100 text-gray-600 rounded-l flex items-center">
                   +61
                 </span>
 
@@ -259,7 +276,7 @@ function CartPage() {
                     const cleaned = e.target.value.replace(/\D/g, '')
                     setForm((f) => ({ ...f, phone: cleaned }))
                   }}
-                  className="w-full border border-gray-300 rounded-r px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full border rounded-r px-3 py-2"
                 />
               </div>
 
@@ -273,7 +290,7 @@ function CartPage() {
 
               {submitError && (
                 <p className="text-red-500 text-sm">
-                  Please enter valid name and mobile number.
+                  Please enter valid details.
                 </p>
               )}
 
