@@ -5,6 +5,7 @@ export interface Product {
   description: string
   shortDescription: string
   price: number
+  brand?: string
 }
 
 const products: Array<Product> = [

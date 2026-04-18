@@ -32,6 +32,7 @@ function parseCSVLine(line: string): string[] {
 
 export async function fetchProducts(): Promise<Product[]> {
   const res = await fetch('/products.csv')
+  let currentBrand = ''
   if (!res.ok) return []
   const text = await res.text()
   const lines = text.trim().split('\n').filter(Boolean)
@@ -43,13 +44,22 @@ export async function fetchProducts(): Promise<Product[]> {
     headers.forEach((h, i) => {
       row[h] = values[i] ?? ''
     })
+	
+	if (!row.id) {
+    currentBrand = row.name
+    return null
+  }
+	const parsedPrice =
+    parseFloat(row.price.replace(/[^0-9.]/g, '')) || 0
     return {
       id: row.id || String(Math.random()),
       name: row.name || '',
-      price: parseFloat(row.price) || 0,
+      price: parsedPrice,
       image: row.image ? `/images/${row.image}` : '/images/placeholder.png',
       description: row.description || '',
 	  stock: parseInt(row.stock) || 0,
+	  brand: currentBrand,
     }
   })
+  .filter((p): p is Product => p != null)
 }
