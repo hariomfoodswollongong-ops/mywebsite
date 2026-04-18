@@ -147,7 +147,7 @@ function CatalogPage() {
     return Array.from(set)
   }, [products])
 
-  // 🔍 + 🏷 FILTER COMBINED
+  // 🔍 + 🏷 FILTER
   const filteredProducts = useMemo(() => {
     return products.filter((p) => {
       const matchesSearch =
@@ -162,7 +162,7 @@ function CatalogPage() {
     })
   }, [products, search, selectedBrand])
 
-  // 📦 GROUP AFTER FILTER
+  // 📦 GROUP
   const groupedProducts = useMemo(() => {
     return filteredProducts.reduce((acc, product) => {
       const brand = product.brand || 'Other'
@@ -213,32 +213,25 @@ function CatalogPage() {
         </div>
       </div>
 
-      {/* 🏷 BRAND FILTER */}
-      <div className="flex gap-2 flex-wrap mb-6">
-        <button
-          onClick={() => setSelectedBrand('All')}
-          className={`px-3 py-1 rounded-full text-sm border ${
-            selectedBrand === 'All'
-              ? 'bg-indigo-600 text-white'
-              : 'bg-white text-gray-700'
-          }`}
-        >
-          All
-        </button>
+      {/* 🏷 Brand Dropdown */}
+      <div className="mb-6 w-full sm:w-64">
+        <label className="block text-sm font-medium text-gray-700 mb-1">
+          Filter by Brand
+        </label>
 
-        {brands.map((brand) => (
-          <button
-            key={brand}
-            onClick={() => setSelectedBrand(brand)}
-            className={`px-3 py-1 rounded-full text-sm border ${
-              selectedBrand === brand
-                ? 'bg-indigo-600 text-white'
-                : 'bg-white text-gray-700'
-            }`}
-          >
-            {brand}
-          </button>
-        ))}
+        <select
+          value={selectedBrand}
+          onChange={(e) => setSelectedBrand(e.target.value)}
+          className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        >
+          <option value="All">All</option>
+
+          {brands.map((brand) => (
+            <option key={brand} value={brand}>
+              {brand}
+            </option>
+          ))}
+        </select>
       </div>
 
       {/* No results */}

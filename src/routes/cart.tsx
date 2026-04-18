@@ -33,8 +33,13 @@ function CartPage() {
 
     if (items.length === 0) return
 
-    // ✅ Basic validation
-    if (!form.name || !form.email) {
+    // ✅ Validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    const phoneRegex = /^(4\d{8}|04\d{8})$/ // supports 412... and 0412...
+
+    const isEmailValid = !form.email || emailRegex.test(form.email)
+
+    if (!form.name || !isEmailValid || !phoneRegex.test(form.phone)) {
       setSubmitError(true)
       return
     }
@@ -43,7 +48,14 @@ function CartPage() {
     setSubmitError(false)
 
     try {
-      // ✅ Build HTML table for email
+      // 👉 Normalize phone
+      let normalized = form.phone
+      if (normalized.startsWith('04')) {
+        normalized = normalized.substring(1)
+      }
+      const fullPhone = `+61${normalized}`
+
+      // ✅ Build HTML table
       const rows = items
         .map(
           ({ product, quantity }) => `
@@ -83,14 +95,13 @@ function CartPage() {
         </table>
       `
 
-      // ✅ Send email
       await emailjs.send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           customer_name: form.name,
-          customer_email: form.email,
-          customer_phone: form.phone || 'N/A',
+          customer_email: form.email || 'Not provided',
+          customer_phone: fullPhone,
           customer_message: form.message || 'No message',
           order_html: orderHTML,
           order_total: totalPrice.toFixed(2),
@@ -109,7 +120,7 @@ function CartPage() {
     }
   }
 
-  // ✅ Success UI
+  // ✅ Success Page
   if (submitted) {
     return (
       <div className="max-w-lg mx-auto text-center py-20">
@@ -148,6 +159,7 @@ function CartPage() {
         </div>
       ) : (
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
           {/* 🛒 Cart Items */}
           <div className="lg:col-span-2 space-y-4">
             {items.map(({ product, quantity }) => (
@@ -162,13 +174,9 @@ function CartPage() {
                   </p>
 
                   <div className="flex gap-2 mt-2">
-                    <button onClick={() => updateQuantity(product.id, quantity - 1)}>
-                      −
-                    </button>
+                    <button onClick={() => updateQuantity(product.id, quantity - 1)}>−</button>
                     <span>{quantity}</span>
-                    <button onClick={() => updateQuantity(product.id, quantity + 1)}>
-                      +
-                    </button>
+                    <button onClick={() => updateQuantity(product.id, quantity + 1)}>+</button>
                     <button
                       onClick={() => removeFromCart(product.id)}
                       className="text-red-500 text-xs"
@@ -189,13 +197,10 @@ function CartPage() {
           <div className="bg-white border p-6 rounded-xl">
             <h2 className="font-bold mb-4">Order Summary</h2>
 
-            {/* ✅ Summary */}
             <div className="mb-4 text-sm">
               {items.map(({ product, quantity }) => (
                 <div key={product.id} className="flex justify-between">
-                  <span>
-                    {product.name} × {quantity}
-                  </span>
+                  <span>{product.name} × {quantity}</span>
                   <span>${(product.price * quantity).toFixed(2)}</span>
                 </div>
               ))}
@@ -206,8 +211,20 @@ function CartPage() {
               </div>
             </div>
 
-            {/* ✅ Form */}
+            {/* 📢 Header */}
+            <div className="bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-200 p-4 rounded-lg mb-2 text-center">
+  <p className="text-sm text-indigo-800 font-semibold tracking-wide">
+    Please provide your details to complete the order
+  </p>
+</div>
+
+            <p className="text-xs text-gray-500 mb-4">
+              Email optional. Enter mobile: 412345678 or 0412345678
+            </p>
+
+            {/* 📝 Form */}
             <form onSubmit={handleSubmit} className="space-y-3">
+
               <input
                 name="name"
                 required
@@ -220,22 +237,31 @@ function CartPage() {
               <input
                 type="email"
                 name="email"
-                required
-                placeholder="john@example.com"
+                placeholder="john@example.com (optional)"
                 value={form.email}
                 onChange={handleField}
                 className="w-full border p-2 rounded"
               />
 
-              <input
-                type="tel"
-                name="phone"
-				required
-                placeholder="+61 412 345 678"
-                value={form.phone}
-                onChange={handleField}
-                className="w-full border p-2 rounded"
-              />
+              {/* 📱 Phone */}
+              <div className="flex">
+                <span className="inline-flex items-center px-3 border border-r-0 border-gray-300 bg-gray-100 text-gray-600 rounded-l">
+                  +61
+                </span>
+
+                <input
+                  type="tel"
+                  name="phone"
+                  required
+                  placeholder="412345678 or 0412345678"
+                  value={form.phone}
+                  onChange={(e) => {
+                    const cleaned = e.target.value.replace(/\D/g, '')
+                    setForm((f) => ({ ...f, phone: cleaned }))
+                  }}
+                  className="w-full border border-gray-300 rounded-r px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                />
+              </div>
 
               <textarea
                 name="message"
@@ -247,14 +273,14 @@ function CartPage() {
 
               {submitError && (
                 <p className="text-red-500 text-sm">
-                  Something went wrong. Check your details.
+                  Please enter valid name and mobile number.
                 </p>
               )}
 
               <button
                 type="submit"
                 disabled={submitting}
-                className="w-full bg-indigo-600 text-white py-2 rounded"
+                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded"
               >
                 {submitting ? 'Sending...' : 'Place Order'}
               </button>
