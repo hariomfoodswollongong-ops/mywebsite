@@ -2,7 +2,7 @@ id,name,description,price,image,stock
 ,LaxmiNarayan Snacks,,,,
 1,Best (Poha) Chivda,400 g,AUD 8.10,LaxmiNarayan Best Chivda (Poha).jpg,50
 2,Cornflakes Chivda,400 g,AUD 8.10,LaxmiNarayan Cornflakes Chivda.jpg,100
-3,Potato Chivda,400 g,AUD 8.10,LaxmiNarayan Potato Chivda.jpg,100
+3,Potato Chivda,400 g,AUD 8.10,LaxmiNarayan Potato Chivda.jpg,0
 4,Misal Farsan,250 g,AUD 5.00,LaxmiNarayan Misal Farsan.jpg,100
 5,Best Farsan,500 g,AUD 8.25,LaxmiNarayan Best Farsan.jpg,100
 ,Kalyan Bhel,,,,
@@ -18,7 +18,7 @@ id,name,description,price,image,stock
 15,Garlic Shev,250 g,AUD 4.75,Kalyan Garlic Shev.jpg,100
 16,Tikhi Shev,200 g,AUD 4.50,Kalyan Tikhi Shev.jpg,100
 17,Masala Banana Wafers,200 g,AUD 4.50,Kalyan Masala Banana Wafers.jpg,100
-18,Black Pepper Banana Wafers,200 g,AUD 4.50,Kalyan Black Pepper Banana Wafers.jpg,100
+18,Black Pepper Banana Wafers,200 g,AUD 4.50,Kalyan Black Pepper Banana Wafers.jpg,10
 ,Kailas Bhel,,,,
 19,Crispy & Crunchy Dry Bhel,200 g,AUD 4.50,Kailas Crispy & Crunchy Dry Bhel.jpg,100
 20,Misal Family Pack (Ready-to-cook Tarri+Farsan),400 g,AUD 9.50,Kailas SP Misal Family Pack.jpg,100
