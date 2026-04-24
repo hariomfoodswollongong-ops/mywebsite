@@ -63,20 +63,12 @@ id,name,description,price,image,stock
 77,Kolhapuri Akha Masur Masala,25 g,AUD 2.75,Prakash Kolhapuri Akha Masur Masala.jpg,100
 78,Kanda Lasun (Onion Garlic) Masala,200 g,AUD 6.50,Prakash Kanda Lasun Masala.jpg,100
 ,Chitale Bandhu - Sweets,,,,100
-79,Gulabjam , 500 g,AUD 8.99,Chitale Gulabjam.jpg,100
 80,Orange Flavoured Soanpapdi,200 g,AUD 4.50,Chitale Orange Soanpapdi.jpg,100
 81,Mango Flavoured Soanpapdi,200 g,AUD 4.50,Chitale Mango Soanpapdi.jpg,100
-82,Shankarpali,200 g,AUD 4.75,Chitale Shankarpali.jpg,100
 ,Chitale Bandhu - Namkeen,,,,100
 83,Bakarwadi,250 g,AUD 6.50,Chitale Bakarwadi.jpg,100
-84,Chakli,200 g,AUD 4.75,Chitale Chakali.jpg,100
-85,Spicy Potato Chivda,200 g,AUD 4.75,Chitale Spicy Potato Chivda.jpg,100
-86,Potato Chivda,200 g,AUD 4.75,Chitale Potato Chivda.jpg,100
-87,Special Chivda,200 g,AUD 4.75,Chitale Special Chivda.jpg,100
 88,Khari Bundi,200 g,AUD 4.75,Chitale Khari Bundi.jpg,100
 89,Namkeen Mixture,200 g,AUD 4.75,Chitale Namkeen Mixture.jpg,100
-90,Lite Chivda,200 g,AUD 4.75,Chitale Lite Chivda.jpg,100
-91,Cornflakes Chivda,200 g,AUD 4.75,Chitale Cornflakes Chivda.jpg,100
 ,Jahagirdar Foods ,,,,100
 92,Nashik Chivda,200 g,AUD 4.50,Jahagirdar Nashik Chivda.jpg,100
 ,Chakote,,,,100
@@ -91,19 +83,14 @@ id,name,description,price,image,stock
 100,Solapuri Kala Mutton Masala,100 g,AUD 6.50,Hari Om Solapuri Kala Mutton Masala.jpg,100
 101,Gavran Malvani Masala,100 g,AUD 6.50,Hari Om Gavran Malvani Masala.jpg,100
 ,Desai Bandhu,,,,100
-102,Amrut Kokam Cordial,500 ml,AUD 7.00,Desai Amrut Kokam Cordial.jpg,100
-103,Amrut Kokam Agal,500 ml,AUD 7.00,Desai Amrut Kokam Agal.jpg,100
 104,Amar Handmade Mango Pulp,850 g,AUD 11.50,Desai Amar Handmade Alphonso Mango Pulp.jpg,100
-105,Kairi Panhe,500 ml,AUD 7.00,Desai Kairi Panhe.jpg,100
 ,Suhana,,,,100
 106,Rose Falooda Mix,100 g,AUD 3.99,Suhana Rose Falooda Mix.jpg,100
 107,Shahi Falooda Mix,100 g,AUD 3.99,Suhana Shahi Falooda Mix.jpg,100
-108,Shahi Paneer Masala Spice Mix,50 g,AUD 3.25,Suhana Shahi Paneer Masala.jpg,100
 109,Paneer Butter Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Butter Masala.jpg,100
 110,Paneer Tikka Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Tikka Masala.jpg,100
 111,Mutter Paneer Masala Spice Mix,50 g,AUD 3.25,Suhana Mutter Paneer Masala.jpg,100
 112,Butter Chicken Masala Spice Mix,50 g,AUD 3.25,Suhana Butter Chicken Mix.jpg,100
-113,Vegetable Biryani Masala Spice Mix,50 g,AUD 3.25,Suhana Veg Biryani Mix.jpg,100
 114,Schezwan Fried Rice Indo-Chinese Mix,50 g,AUD 3.25,Suhana Schezwan Fried Rice.jpg,100
 115,Paneer Chilly Mix,50 g,AUD 3.50,Suhana Paneer Chilli.jpg,100
 116,Chicken Chilly Dry Mix,50 g,AUD 3.50,Suhana Chicken Chilli Dry.jpg,100
@@ -114,7 +101,6 @@ id,name,description,price,image,stock
 121,Chat Masala,50 g,AUD 3.50,Suhana Chat Masala.jpg,100
 122,Piri Piri Masala,50 g,AUD 3.50,Suhana Piri Piri Masala.jpg,100
 123,Sandwich Masala,50 g,AUD 3.50,Suhana Sandwich Masala.jpg,100
-124,Chai Masala,50 g,AUD 3.50,Suhana Chai Masala .jpg,100
 125,Jaljeera Masala,50 g,AUD 3.50,Suhana Jaljira Masala.jpg,100
 ,Premium Rice,,,,
 126,Ambemohar Rice,5 KG,AUD 27.50,Hari Om Foods Ambemohar Rice.jpg,100
