@@ -1,22 +1,17 @@
 id,name,description,price,image,stock
 ,LaxmiNarayan Snacks,,,,
 1,Best (Poha) Chivda,400 g,AUD 8.10,LaxmiNarayan Best Chivda (Poha).jpg,100
-2,Cornflakes Chivda,400 g,AUD 8.10,LaxmiNarayan Cornflakes Chivda.jpg,100
-3,Potato Chivda,400 g,AUD 8.10,LaxmiNarayan Potato Chivda.jpg,100
 4,Misal Farsan,250 g,AUD 5.00,LaxmiNarayan Misal Farsan.jpg,100
-5,Best Farsan,500 g,AUD 8.25,LaxmiNarayan Best Farsan.jpg,100
+5,Best Farsan,500 g,AUD 8.25,LaxmiNarayan Best Farsan.jpg,1
 ,Kalyan Bhel,,,,
 6,Bhel ,350 g,AUD 6.50,Kalyan Bhel.jpg,100
-7,Dry Bhel,100 g,AUD 2.25,Kalyan Dry Bhel.jpg,100
-8,Misal Tarri,250 g,AUD 5.50,Kalyan Misal Tarri.jpg,100
+8,Misal Tarri,250 g,AUD 5.50,Kalyan Misal Tarri.jpg,12
 9,Misal Farsan,200 g,AUD 4.75,Kalyan Misal Farsan.jpg,100
 10,Papdi,250 g,AUD 4.75,Kalyan Papdi.jpg,100
 11,Gathiya,250 g,AUD 4.75,Kalyan Ghatiya.jpg,100
-12,Chat Puri,200 g,AUD 4.50,Kalyan Chat Puri.jpg,100
+12,Chat Puri,200 g,AUD 4.50,Kalyan Chat Puri.jpg,10
 13,Shev Chivda,250 g,AUD 4.95,Kalyan Shev Chivda.jpg,100
 14,Farsan,250 g,AUD 5.00,Kalyan Farsan.jpg,100
-15,Garlic Shev,250 g,AUD 4.75,Kalyan Garlic Shev.jpg,100
-16,Tikhi Shev,200 g,AUD 4.50,Kalyan Tikhi Shev.jpg,100
 17,Masala Banana Wafers,200 g,AUD 4.50,Kalyan Masala Banana Wafers.jpg,100
 18,Black Pepper Banana Wafers,200 g,AUD 4.50,Kalyan Black Pepper Banana Wafers.jpg,100
 ,Kailas Bhel,,,,
@@ -24,8 +19,6 @@ id,name,description,price,image,stock
 20,Misal Family Pack (Ready-to-cook Tarri+Farsan),400 g,AUD 9.50,Kailas SP Misal Family Pack.jpg,100
 21,Jowar Chivda,200 g,AUD 4.50,Kailas SP Jowar Chivda.jpg,100
 ,Bhadait Foods ,,,,
-22,Special Misal Pack,400 g,AUD 10.25,Bhadait SP Misal Pack.jpg,100
-23,Misal Farsan,200 g,AUD 4.75,Bhadait SP MIsal Farsan.jpg,100
 24,Mix Farsan,200 g,AUD 4.75,Bhadait Mix Farsan.jpg,100
 ,Sohum Udyog  - Flour,,,,
 25,Jowar Flour,500 g,AUD 4.75,Sohum Jowar Flour.jpg,100
@@ -47,14 +40,7 @@ id,name,description,price,image,stock
 52,Garlic Chutney,100 g,AUD 4.50,Sohum Garlic Chutney.jpg,100
 53,Kadipatta (Curry Leaves) Chutney,100 g,AUD 4.50,Sohum Curry Leaves Chutney.jpg,100
 ,Bedekar - Pickles,,,,
-54,Mango Pickle,400 g,AUD 5.75,Bedekar Mango Pickle.jpg,100
-55,Vadu Mango Pickle,400 g,AUD 5.75,Bedekar Vadu Mango Pickle.jpg,100
 56,Mixed Pickle,400 g,AUD 5.75,Bedekar Mixed Pickle.jpg,100
-57,Green Chilli Pickle,400 g,AUD 5.75,Bedekar Green Chilli Pickle.jpg,100
-58,Mango Chilli Pickle,400 g,AUD 5.75,Bedekar Mango Chilli Pickle.jpg,100
-59,Avakkai Pickle,400 g,AUD 5.75,Bedekar Avakkai Pickle.jpg,100
-,Bedekar-Chutney,,,,100
-60,Garlic Chutney,100 g,AUD 4.50,Bedekar Garlic Chutney.jpg,100
 ,Pravin Pickles,,,,100
 61,Mango Pickle,400 g,AUD 5.75,Pravin Mango Pickle.jpg,100
 62,Mixed Pickle,400 g,AUD 5.75,Pravin Mixed Pickle.jpg,100
@@ -96,7 +82,6 @@ id,name,description,price,image,stock
 ,Chakote,,,,100
 93,Kolhapuri Jawar Chivda,200 g,AUD 4.90,Chakote Jawar Chivda.jpg,100
 94,Twisted Marvel Khari,200 g,AUD 4.90,Chakote Twisted Marvel Khari.jpg,100
-95,Cumin Pav Butter,200 g,AUD 4.90,Chakote Cumin Pav Butter.jpg,100
 ,Chheda Snacks,,,,100
 96,Pasta Masala Chips,50 g,AUD 2.00,Chheda Pasta Masala.jpg,100
 97,Mix Farsan,400 g,AUD 6.90,Chheda Mix Farsan.jpg,100
