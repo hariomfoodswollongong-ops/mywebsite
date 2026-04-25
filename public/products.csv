@@ -65,7 +65,7 @@ id,name,description,price,image,stock
 78,Kanda Lasun (Onion Garlic) Masala,200 g,AUD 6.50,Prakash Kanda Lasun Masala.jpg,100
 ,Chitale Bandhu - Sweets,,,,100
 80,Orange Flavoured Soanpapdi,200 g (Best Before 13/06/2026),AUD 2.99,Chitale Orange Soanpapdi.jpg,100
-81,Mango Flavoured Soanpapdi,200 g (Best Before 13/06/2026),AUD 2.99,Chitale Mango Soanpapdi.jpg,Available
+81,Mango Flavoured Soanpapdi,200 g (Best Before 13/06/2026),AUD 2.99,Chitale Mango Soanpapdi.jpg,100
 ,Chitale Bandhu - Namkeen,,,,100
 83,Bakarwadi,250 g,AUD 6.50,Chitale Bakarwadi.jpg,100
 88,Khari Bundi,200 g,AUD 4.75,Chitale Khari Bundi.jpg,100
@@ -77,6 +77,7 @@ id,name,description,price,image,stock
 94,Twisted Marvel Khari,200 g,AUD 4.90,Chakote Twisted Marvel Khari.jpg,100
 ,Chheda Snacks,,,,100
 96,Pasta Masala Chips,50 g,AUD 2.00,Chheda Pasta Masala.jpg,100
+97,Finger Pops Masala Chips,50 g,AUD 2.00,Chheda Finger Pops Masala Chips.jpg,100
 97,Mix Farsan,400 g,AUD 6.90,Chheda Mix Farsan.jpg,100
 ,Hari Om Foods - Masalas ,,,,100
 98,Kolhapuri Ghati Masala,100 g,AUD 6.50,Hari Om Kolhapuri Ghati Masala.jpg,100
