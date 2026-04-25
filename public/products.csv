@@ -23,8 +23,10 @@ id,name,description,price,image,stock
 ,Sohum Udyog  - Flour,,,,
 25,Jowar Flour,500 g,AUD 4.75,Sohum Jowar Flour.jpg,100
 29,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 22.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
-32,Thalipeeth Bhajani Flour,500 g,AUD 7.75,Sohum Thalipeeth Bhajani Flour.jpg,100
-33,Bhopla Gharge (Red Pumkin Puri) Flour,250 g,AUD 7.20,Sohum Red Pumpkin Puri Flour.jpg,100
+30,Emmer Wheat Flour,1 KG,AUD 8.99,Sohum Emmer Wheat Flour.jpg,In Stock
+31,Thalipeeth Bhajani Flour,500 g,AUD 7.75,Sohum Thalipeeth Bhajani Flour.jpg,100
+32,Ghavan Flour,500 g,AUD 5.75,Sohum Ghavan Flour.jpg,In Stock
+34,Bhopla Gharge (Red Pumkin Puri) Flour,250 g,AUD 7.20,Sohum Red Pumpkin Puri Flour.jpg,100
 34,Jwari Laahi (Puffed Sorghum) Flour,200 g,AUD 5.00,Sohum Puffed Sorghum Flour.jpg,100
 37,Kokani Wada Flour,500 g,AUD 5.75,Sohum Kokani Wada Flour.jpg,100
 38,Gahu (Wheat) Satva,200 g,AUD 5.50,Sohum Gahu Satva.jpg,100
@@ -63,8 +65,8 @@ id,name,description,price,image,stock
 77,Kolhapuri Akha Masur Masala,25 g,AUD 2.75,Prakash Kolhapuri Akha Masur Masala.jpg,100
 78,Kanda Lasun (Onion Garlic) Masala,200 g,AUD 6.50,Prakash Kanda Lasun Masala.jpg,100
 ,Chitale Bandhu - Sweets,,,,100
-80,Orange Flavoured Soanpapdi,200 g,AUD 4.50,Chitale Orange Soanpapdi.jpg,100
-81,Mango Flavoured Soanpapdi,200 g,AUD 4.50,Chitale Mango Soanpapdi.jpg,100
+80,Orange Flavoured Soanpapdi,200 g (Best Before 13/06/2026),AUD 2.99,Chitale Orange Soanpapdi.jpg,In Stock
+81,Mango Flavoured Soanpapdi,200 g (Best Before 13/06/2026),AUD 2.99,Chitale Mango Soanpapdi.jpg,In Stock
 ,Chitale Bandhu - Namkeen,,,,100
 83,Bakarwadi,250 g,AUD 6.50,Chitale Bakarwadi.jpg,100
 88,Khari Bundi,200 g,AUD 4.75,Chitale Khari Bundi.jpg,100
