@@ -19,10 +19,10 @@ id,name,description,price,image,stock
 15,Chocolate Bar Cake Veg,100 g,,Monginis Chocolate Bar Cake Veg.jpg,100
 16,Fruit Muffins (Single) Veg,30 g,,Monginis Fuit Muffins Cake (Single) Veg.jpg,100
 17,Chocolate Muffins (Single) Veg,30 g,,Monginis Choco Muffins Cake (Single) Veg.jpg,100
-18,Classic Plain Khari,200 g,,Monginis Classic Plain Khari.jpg,100
+18,Twist Khari Plain,200 g,,Monginis Twist Khari Plain.jpg,100
 19,Methi Khari ,200 g,,Monginis Methi Khari.jpg,100
 20,Jeera Khari ,200 g,,Monginis Jeera Khari.jpg,100
-21,Twisted Masala Khari,250 g,,Mongins Twisted Masala Khari.jpg,100
+21,Masala Khari,250 g,,Monginis Masala Khari.jpg,100
 22,Coconut Almond Cookies,200 g,,Monginis Coconut Almond Cookies.jpg,100
 ,Sohum Udyog  - Flour,,,,
 23,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
@@ -40,7 +40,7 @@ id,name,description,price,image,stock
 34,Dry Dates Powder,250 g,AUD 9.75,Sohum Dry Dates Powder.jpg,100
 35,Rajgira Laddu,200 g,AUD 5.50,Sohum Rajgira Laddu.jpg,100
 36,Rajgira Rolls,200 g,AUD 5.50,Sohum Rajgira Rolls.jpg,100
-37,Sabudana (Sago) Papad,100 g,AUD 3.50,Sohum Sego Papad.jpg,100
+37,Sabudana (Sago) Papadi,100 g,AUD 3.50,Sohum Sabudana (Sago) Papadi.jpg,100
 38,Sabudana (Sago) Chakali,200 g,AUD 5.70,Sohum Sago Chakali.jpg,100
 39,Potato Mirgunda Papad,200 g,AUD 5.50,Sohum Potato Mirgunda Papad.jpg,100
 40,Solapuri Peanut Chutney,100 g,AUD 5.50,Sohum Solapuri Peanut Chutney.jpg,100
