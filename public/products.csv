@@ -55,7 +55,7 @@ id,name,description,price,image,stock
 47,Lime Pickle,400 g,AUD 5.75,Bedekar Lime Pickle.jpg,100
 48,Sweet Lime Pickle,400 g,AUD 5.75,Bedekar Lime Pickle Sweet.jpg,100
 49,Avakkai Pickle,400 g,AUD 5.75,Bedekar Avakkai Pickle.jpg,100
-50,Chunda,400 g,AUD 5.75,Bedekar Chunda.jpg,100
+50,Chhunda,400 g,AUD 5.75,Bedekar Chhunda.jpg,100
 ,Prakash Masala,,,,
 51,Kolhapuri Mutton Rassa Masala,25 g,AUD 2.75,Prakash Kolhapuri Mutton Rassa Masala.jpg,100
 52,Kolhapuri Mutton Sukka Masala,25 g,AUD 2.75,Prakash Kolhapuri Mutton Sukka Masala.jpg,100
@@ -108,20 +108,20 @@ id,name,description,price,image,stock
 ,Desai Bandhu,,,,
 93,Amar Handmade Mango Pulp,850 g,AUD 11.50,Desai Amar Handmade Alphonso Mango Pulp.jpg,100
 ,Suhana,,,,
-73,Paneer Butter Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Butter Masala.jpg,100
-74,Paneer Tikka Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Tikka Masala.jpg,100
-75,Mutter Paneer Masala Spice Mix,50 g,AUD 3.25,Suhana Mutter Paneer Masala.jpg,100
-76,Butter Chicken Masala Spice Mix,50 g,AUD 3.25,Suhana Butter Chicken Mix.jpg,100
-77,Schezwan Fried Rice Indo-Chinese Mix,20 g,AUD 3.25,Suhana Schezwan Fried Rice.jpg,100
-78,Paneer Chilly Mix,50 g,AUD 3.50,Suhana Paneer Chilli.jpg,100
-79,Chicken Chilly Dry Mix,50 g,AUD 3.50,Suhana Chicken Chilli Dry.jpg,100
-80,Manchurian Mix,80 g,AUD 3.50,Suhana Manchurian.jpg,100
-85,Piri Piri Spice Mix,100 g,AUD 3.50,Suhana Piri Piri Masala.jpg,100
-86,Cuppa Poha,80 g,,,100
-87,Cuppa Upma,70 g,,,100
-88,Cuppa Misal,70 g,,,100
-89,Cuppa Indori Poha,80 g,,,100
+94,Paneer Butter Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Butter Masala.jpg,100
+95,Paneer Tikka Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Tikka Masala.jpg,100
+96,Mutter Paneer Masala Spice Mix,50 g,AUD 3.25,Suhana Mutter Paneer Masala.jpg,100
+97,Butter Chicken Masala Spice Mix,50 g,AUD 3.25,Suhana Butter Chicken Mix.jpg,100
+98,Schezwan Fried Rice Indo-Chinese Mix,20 g,AUD 3.25,Suhana Schezwan Fried Rice.jpg,100
+99,Paneer Chilly Mix,50 g,AUD 3.50,Suhana Paneer Chilli.jpg,100
+100,Chicken Chilly Dry Mix,50 g,AUD 3.50,Suhana Chicken Chilli Dry.jpg,100
+101,Manchurian Mix,80 g,AUD 3.50,Suhana Manchurian.jpg,100
+102,Piri Piri Spice Mix,100 g,AUD 3.50,Suhana Piri Piri Masala.jpg,100
+103,Cuppa Poha,80 g,,Suhana Cuppa Poha.jpg,100
+104,Cuppa Upma,70 g,,Suhana Cuppa Upma.jpg,100
+105,Cuppa Misal,70 g,,Suhana Cuppa Misal.jpg,100
+106,Cuppa Indori Poha,80 g,,Suhana Cuppa Indori Poha.jpg,100
 ,Premium Rice,,,,
-90,Ambemohor Rice,5 KG,AUD 27.50,,100
-91,Indrayani Rice,5 KG,AUD 26.50,Hari Om Foods Indrayani Rice.jpg,100
-92,Samrajyam Ponni Boiled Rice ,5 KG,AUD 18.50,Hari Om Foods Samrajyam Ponni Boiled Rice.jpg,100
+107,Ambemohor Rice,5 KG,AUD 27.50,Hari Om Foods Ambemohor Rice.jpg,100
+108,Indrayani Rice,5 KG,AUD 26.50,Hari Om Foods Indrayani Rice.jpg,100
+109,Samrajyam Ponni Boiled Rice ,5 KG,AUD 18.50,Hari Om Foods Samrajyam Ponni Boiled Rice.jpg,100
