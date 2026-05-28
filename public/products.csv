@@ -2,7 +2,7 @@ id,name,description,price,image,stock
 ,Kailas Bhel,,,,
 1,Chatpati Bhel Chat,250 g,AUD 4.80,Kailas Chatpati Bhel Chat.jpg,100
 2,Crispy & Crunchy Dry Bhel,200 g,AUD 4.50,Kailas Crispy & Crunchy Dry Bhel.jpg,100
-3,Misal Family Pack (Ready-to-cook Tarri+Farsan),400 g,AUD 9.50,Kailas MIsal Family Pack.jpg,100
+3,Misal Family Pack (Tarri & Farsan),400 g,AUD 9.50,Kailas MIsal Family Pack.jpg,100
 4,Farali  Potato Chivda,200 g,AUD 4.50,Kailas Farali Potato Chivda.jpg,100
 ,Kalyan Bhel,,,,
 5,Misal Tarri,250 g,AUD 5.50,Kalyan Misal Tarri.jpg,12
@@ -29,7 +29,7 @@ id,name,description,price,image,stock
 24,Bajari Flour,500 g,AUD 4.50,Sohum Bajari Flour.jpg,100
 25,Suvasik Modak Flour,500 g,AUD 5.75,Sohum Suvasik Modak Flour.jpg,100
 26,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 21.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
-27,Chakali Flour,500 g,AUD 8.99,Sohum Chakali Bhajani Flour.jpg,100
+27,Chakali Bhajani Flour,500 g,AUD 8.99,Sohum Chakali Bhajani Flour.jpg,100
 28,Thalipeeth Bhajani Flour,500 g,AUD 7.75,Sohum Thalipeeth Bhajani Flour.jpg,100
 29,Kokani Wada Flour,500 g,AUD 5.75,Sohum Kokani Wada Flour.jpg,100
 30,Kulith Flour,200 g,AUD 4.90,Sohum Kulith Flour.jpg,100
