@@ -5,21 +5,21 @@ id,name,description,price,image,stock
 3,Misal Family Pack (Incl. Tarri & Farsan),400 g  (NOW 10% OFF! WAS $ 9.50)            ,AUD 8.55,Kailas MIsal Family Pack.jpg,100
 4,Farali  Potato Chivda,200 g,AUD 4.50,Kailas Farali Potato Chivda.jpg,100
 ,Monginis,,,,
-5,Milk Rusk,300 g,,Monginis MIlk Rusk.jpg,100
-6,Jeera Rusk,300 g,,Monginis Jeera Rusk.jpg,100
-7,Elaichi Rusk,300 g,,Monginis Elaichi Rusk.jpg,100
-8,Suji Rusk,300 g,,Monginis Suji Rusk.jpg,100
-9,Fruit Rusk,300 g,,Monginis Fruit Rusk.jpg,100
-10,Tiffin Cake (Butter Cake),30 g,,Monginis Tiffin Cake (Butter Cake).jpg,100
-11,Fruit Bar Cake Veg,100 g,,Monginis Fruit Bar Cake Veg.jpg,100
-12,Chocolate Bar Cake Veg,100 g,,Monginis Chocolate Bar Cake Veg.jpg,100
-13,Fruit Muffins (Single) Veg,30 g,,Monginis Fruit Muffins Cake (Single) Veg.jpg,100
-14,Chocolate Muffins (Single) Veg,30 g,,Monginis Choco Muffins Cake (Single) Veg.jpg,100
-15,Twist Khari Plain,200 g,,Monginis Twist Khari Plain.jpg,100
-16,Methi Khari ,200 g,,Monginis Methi Khari.jpg,100
-17,Jeera Khari ,200 g,,Monginis Jeera Khari.jpg,100
-18,Masala Khari,250 g,,Monginis Masala Khari.jpg,100
-19,Coconut Almond Cookies,200 g,,Monginis Coconut Almond Cookies.jpg,100
+5,Milk Rusk,300 g,AUD 3.83,Monginis MIlk Rusk.jpg,100
+6,Jeera Rusk,300 g,AUD 3.83,Monginis Jeera Rusk.jpg,100
+7,Elaichi Rusk,300 g,AUD 3.83,Monginis Elaichi Rusk.jpg,100
+8,Suji Rusk,300 g,AUD 3.83,Monginis Suji Rusk.jpg,100
+9,Fruit Rusk,300 g,AUD 3.83,Monginis Fruit Rusk.jpg,100
+10,Tiffin Cake (Butter Cake),30 g,AUD 0.94,Monginis Tiffin Cake (Butter Cake).jpg,100
+11,Fruit Bar Cake Veg,100 g,AUD 2.30,Monginis Fruit Bar Cake Veg.jpg,100
+12,Chocolate Bar Cake Veg,100 g,AUD 2.30,Monginis Chocolate Bar Cake Veg.jpg,100
+13,Fruit Muffins (Single) Veg,30 g,AUD 0.86,Monginis Fruit Muffins Cake (Single) Veg.jpg,100
+14,Chocolate Muffins (Single) Veg,30 g,AUD 0.86,Monginis Choco Muffins Cake (Single) Veg.jpg,100
+15,Twist Khari Plain,200 g,AUD 3.69,Monginis Twist Khari Plain.jpg,100
+16,Methi Khari ,200 g,AUD 3.69,Monginis Methi Khari.jpg,100
+17,Jeera Khari ,200 g,AUD 3.69,Monginis Jeera Khari.jpg,100
+18,Masala Khari,250 g,AUD 3.82,Monginis Masala Khari.jpg,100
+19,Coconut Almond Cookies,200 g,AUD 4.50,Monginis Coconut Almond Cookies.jpg,100
 ,Sohum Udyog  - Flour,,,,
 20,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
 21,Bajari Flour,500 g,AUD 4.50,Sohum Bajari Flour.jpg,100
@@ -103,18 +103,18 @@ id,name,description,price,image,stock
 89,Amar Handmade Mango Pulp,850 g,AUD 11.50,Desai Amar Handmade Alphonso Mango Pulp.jpg,100
 ,Suhana,,,,
 90,Paneer Butter Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Butter Masala.jpg,100
-91,Paneer Tikka Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Tikka Masala.jpg,100
+91,Paneer Tikka Masala Spice Mix,50 g (NOW 10% OFF! WAS $ 3.25)            ,AUD 2.92,Suhana Paneer Tikka Masala.jpg,100
 92,Mutter Paneer Masala Spice Mix,50 g,AUD 3.25,Suhana Mutter Paneer Masala.jpg,100
-93,Butter Chicken Masala Spice Mix,50 g,AUD 3.25,Suhana Butter Chicken Mix.jpg,100
+93,Butter Chicken Masala Spice Mix,50 g (NOW 10% OFF! WAS $ 3.25)            ,AUD 2.92,Suhana Butter Chicken Mix.jpg,100
 94,Schezwan Fried Rice Indo-Chinese Mix,20 g,AUD 1.99,Suhana Schezwan Fried Rice.jpg,100
 95,Paneer Chilly Mix,50 g,AUD 3.50,Suhana Paneer Chilli.jpg,100
 96,Chicken Chilly Dry Mix,50 g,AUD 3.50,Suhana Chicken Chilli Dry.jpg,100
 97,Manchurian Mix,80 g,AUD 3.50,Suhana Manchurian.jpg,100
 98,Piri Piri Spice Mix,100 g,AUD 4.25,Suhana Piri Piri Masala.jpg,100
-99,Cuppa Poha,80 g,,Suhana Cuppa Poha.jpg,100
-100,Cuppa Upma,70 g,,Suhana Cuppa Upma.jpg,100
-101,Cuppa Misal,70 g,,Suhana Cuppa Misal.jpg,100
-102,Cuppa Indori Poha,80 g,,Suhana Cuppa Indori Poha.jpg,100
+99,Cuppa Poha,80 g,AUD 2.88,Suhana Cuppa Poha.jpg,100
+100,Cuppa Upma,70 g,AUD 2.88,Suhana Cuppa Upma.jpg,100
+101,Cuppa Misal,70 g,AUD 2.88,Suhana Cuppa Misal.jpg,100
+102,Cuppa Indori Poha,80 g,AUD 2.88,Suhana Cuppa Indori Poha.jpg,100
 ,Premium Rice,,,,
 103,Ambemohor Rice,5 KG,AUD 27.50,Hari Om Foods Ambemohor Rice.jpg,100
 104,Indrayani Rice,5 KG,AUD 26.50,Hari Om Foods Indrayani Rice.jpg,100
