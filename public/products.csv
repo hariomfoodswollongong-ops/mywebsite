@@ -10,11 +10,11 @@ id,name,description,price,image,stock
 7,Elaichi Rusk,300 g,AUD 3.83,Monginis Elaichi Rusk.jpg,100
 8,Suji Rusk,300 g,AUD 3.83,Monginis Suji Rusk.jpg,100
 9,Fruit Rusk,300 g,AUD 3.83,Monginis Fruit Rusk.jpg,100
-10,Tiffin Cake (Butter Cake),30 g,AUD 0.94,Monginis Tiffin Cake (Butter Cake).jpg,100
+10,Tiffin Cake (Butter Cake),30 g,AUD 1.00,Monginis Tiffin Cake (Butter Cake).jpg,100
 11,Fruit Bar Cake Veg,100 g,AUD 2.30,Monginis Fruit Bar Cake Veg.jpg,100
 12,Chocolate Bar Cake Veg,100 g,AUD 2.30,Monginis Chocolate Bar Cake Veg.jpg,100
-13,Fruit Muffins (Single) Veg,30 g,AUD 0.86,Monginis Fruit Muffins Cake (Single) Veg.jpg,100
-14,Chocolate Muffins (Single) Veg,30 g,AUD 0.86,Monginis Choco Muffins Cake (Single) Veg.jpg,100
+13,Fruit Muffins (Single) Veg,30 g,AUD 0.90,Monginis Fruit Muffins Cake (Single) Veg.jpg,100
+14,Chocolate Muffins (Single) Veg,30 g,AUD 0.90,Monginis Choco Muffins Cake (Single) Veg.jpg,100
 15,Twist Khari Plain,200 g,AUD 3.69,Monginis Twist Khari Plain.jpg,100
 16,Methi Khari ,200 g,AUD 3.69,Monginis Methi Khari.jpg,100
 17,Jeera Khari ,200 g,AUD 3.69,Monginis Jeera Khari.jpg,100
@@ -65,7 +65,7 @@ id,name,description,price,image,stock
 57,Cornflakes Chiwda,400 g,AUD 8.10,LaxmiNarayan Cornflakes Chiwda.jpg,100
 58,Misal Farsan,250 g,AUD 5.00,LaxmiNarayan Misal Farsan.jpg,100
 ,Chitale Bandhu - Sweets & Ghee,,,,
-59,Alphonso Mango Pulp (Sweetened),1 KG,,Chitale Alphonso Mango Pulp (Sweetened).jpg,100
+59,Alphonso Mango Pulp (Sweetened),1 KG,AUD 8.99,Chitale Alphonso Mango Pulp (Sweetened).jpg,100
 60,Besan Laddu,250 g,AUD 7.49,Chitale Besan Ladoo.jpg,100
 61,Dink Laddu,250 g,AUD 7.49,Chitale Dink Ladoo.jpg,100
 62,Gulabjam,500 g,AUD 8.99,Chitale Gulabjam.jpg,100
@@ -111,10 +111,10 @@ id,name,description,price,image,stock
 96,Chicken Chilly Dry Mix,50 g,AUD 3.50,Suhana Chicken Chilli Dry.jpg,100
 97,Manchurian Mix,80 g,AUD 3.50,Suhana Manchurian.jpg,100
 98,Piri Piri Spice Mix,100 g,AUD 4.25,Suhana Piri Piri Masala.jpg,100
-99,Cuppa Poha,80 g,AUD 2.88,Suhana Cuppa Poha.jpg,100
-100,Cuppa Upma,70 g,AUD 2.88,Suhana Cuppa Upma.jpg,100
-101,Cuppa Misal,70 g,AUD 2.88,Suhana Cuppa Misal.jpg,100
-102,Cuppa Indori Poha,80 g,AUD 2.88,Suhana Cuppa Indori Poha.jpg,100
+99,Cuppa Poha,80 g,AUD 2.48,Suhana Cuppa Poha.jpg,100
+100,Cuppa Upma,70 g,AUD 2.48,Suhana Cuppa Upma.jpg,100
+101,Cuppa Misal,70 g,AUD 2.48,Suhana Cuppa Misal.jpg,100
+102,Cuppa Indori Poha,80 g,AUD 2.48,Suhana Cuppa Indori Poha.jpg,100
 ,Premium Rice,,,,
 103,Ambemohor Rice,5 KG,AUD 27.50,Hari Om Foods Ambemohor Rice.jpg,100
 104,Indrayani Rice,5 KG,AUD 26.50,Hari Om Foods Indrayani Rice.jpg,100
