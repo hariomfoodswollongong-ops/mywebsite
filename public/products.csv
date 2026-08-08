@@ -11,22 +11,31 @@ id,name,description,price,image,stock
 8,Suji Rusk,300 g,AUD 3.83,Monginis Suji Rusk.jpg,100
 9,Fruit Rusk,300 g,AUD 3.83,Monginis Fruit Rusk.jpg,100
 10,Tiffin Cake (Butter Cake),30 g,AUD 1.00,Monginis Tiffin Cake (Butter Cake).jpg,100
-11,Fruit Bar Cake Veg,100 g,AUD 2.30,Monginis Fruit Bar Cake Veg.jpg,100
-12,Chocolate Bar Cake Veg,100 g,AUD 2.30,Monginis Chocolate Bar Cake Veg.jpg,100
+11,Fruit Bar Cake Veg,30 g,AUD 2.30,Monginis Fruit Bar Cake Veg.jpg,100
+12,Chocolate Bar Cake Veg,30 g,AUD 2.30,Monginis Chocolate Bar Cake Veg.jpg,100
+,Chocolate Bar Veg,50 g,,,
+,Fruit Bar Veg,50 g,,,
 13,Fruit Muffins (Single) Veg,30 g,AUD 0.90,Monginis Fruit Muffins Cake (Single) Veg.jpg,100
 14,Chocolate Muffins (Single) Veg,30 g,AUD 0.90,Monginis Choco Muffins Cake (Single) Veg.jpg,100
-15,Twist Khari Plain,200 g,AUD 3.69,Monginis Twist Khari Plain.jpg,100
+15,Classic Plain Khari,200 g,AUD 3.69,,100
 16,Methi Khari ,200 g,AUD 3.69,Monginis Methi Khari.jpg,100
 17,Jeera Khari ,200 g,AUD 3.69,Monginis Jeera Khari.jpg,100
-18,Masala Khari,250 g,AUD 3.82,Monginis Masala Khari.jpg,100
+18,Masala Khari,200 g,AUD 3.82,Monginis Masala Khari.jpg,100
+,Twisted Masala Khari,200 g,,,
+,Twisted Cheese Khari,200 g,,,
 19,Coconut Almond Cookies,200 g,AUD 4.50,Monginis Coconut Almond Cookies.jpg,100
+,Fruit Cookies,200 g,,,
+,Surti Makhaniya,200 g,,,
+,Krispy Bite,200 g,,,
 ,Sohum Udyog  - Flour,,,,
+,Jowar Flour,500 g,,,
 20,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
 21,Bajari Flour,500 g,AUD 4.50,Sohum Bajari Flour.jpg,100
 22,Suvasik Modak Flour,500 g,AUD 5.50,Sohum Suvasik Modak Flour.jpg,100
 23,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 21.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
 24,Chakali Bhajani Flour,500 g,AUD 8.30,Sohum Chakali Bhajani Flour.jpg,100
 25,Thalipeeth Bhajani Flour,500 g,AUD 7.75,Sohum Thalipeeth Bhajani Flour.jpg,100
+,Upwas Bhajani Flour,500 g,,,
 26,Kokani Wada Flour,500 g,AUD 5.75,Sohum Kokani Wada Flour.jpg,100
 27,Kulith Flour,200 g,AUD 4.99,Sohum Kulith Flour.jpg,100
 28,Sattu (Roasted Gram) Flour,200 g,AUD 5.50,Sohum Sattu (Roasted Gram) Flour.jpg,100
@@ -41,21 +50,14 @@ id,name,description,price,image,stock
 36,Potato Mirgunda Papad,200 g,AUD 5.45,Sohum Potato Mirgunda Papad.jpg,100
 37,Solapuri Peanut Chutney,100 g,AUD 4.50,Sohum Solapuri Peanut Chutney.jpg,100
 38,Garlic Chutney,100 g,AUD 4.50,Sohum Garlic Chutney.jpg,100
-,Bedekar - Pickles,,,,
-39,Mango Pickle,400 g,AUD 5.75,Bedekar Mango Pickle.jpg,100
-40,Vadu Mango Pickle,400 g,AUD 5.75,Bedekar Vadu Mango Pickle.jpg,100
-41,Mixed Pickle,400 g,AUD 5.75,Bedekar Mixed Pickle.jpg,100
-42,Green Chilli Pickle,400 g,AUD 5.75,Bedekar Green Chilli Pickle.jpg,100
-43,Lime Pickle,400 g,AUD 5.75,Bedekar Lime Pickle.jpg,100
-44,Sweet Lime Pickle,400 g,AUD 5.75,Bedekar Lime Pickle Sweet.jpg,100
-45,Avakkai Pickle,400 g,AUD 5.75,Bedekar Avakkai Pickle.jpg,100
-46,Chhunda,400 g,AUD 5.75,Bedekar Chhunda.jpg,100
 ,Prakash Masala,,,,
 47,Kolhapuri Mutton Rassa Masala,25 g,AUD 2.75,Prakash Kolhapuri Mutton Rassa Masala.jpg,100
 48,Kolhapuri Mutton Sukka Masala,25 g,AUD 2.75,Prakash Kolhapuri Mutton Sukka Masala.jpg,100
 49,Varhadi Mutton Rassa Masala,25 g,AUD 2.75,Prakash Varhadi Mutton Rassa Masala.jpg,100
 50,Kolhapuri Chicken Rassa Masala,25 g,AUD 2.75,Prakash Kolhapuri Chicken Rassa Masala.jpg,100
 51,Kolhapuri Chicken Sukka Masala,25 g,AUD 2.75,Prakash Kolhapuri Chicken Sukka Masala.jpg,100
+,Kolhapuri Chicken Biryani Masala,25 g,,,
+,Kolhapuri Mutton Biryani Masala,25 g,,,
 52,Kolhapuri Egg Rassa Masala,25 g,AUD 2.75,Prakash Kolhapuri Egg Rassa Masala.jpg,100
 53,Kolhapuri Misal Rassa Masala,25 g,AUD 2.75,Prakash Kolhapuri Misal Rassa Masala.jpg,100
 54,Kolhapuri Akha Masur Masala,25 g,AUD 2.75,Prakash Kolhapuri Akha Masur Masala.jpg,100
@@ -63,21 +65,26 @@ id,name,description,price,image,stock
 ,LaxmiNarayan Snacks,,,,
 56,Best (Poha) Chiwda,400 g,AUD 8.10,LaxmiNarayan Best Chiwda (Poha).jpg,100
 57,Cornflakes Chiwda,400 g,AUD 8.10,LaxmiNarayan Cornflakes Chiwda.jpg,100
+,Potato Chiwda,400 g,,,
+,Patal Poha Chiwda,250 g,,,
+,Sabu Flakes Chiwda,200 g,,,
+,Best Farsan,500 g,,,
 58,Misal Farsan,250 g,AUD 5.00,LaxmiNarayan Misal Farsan.jpg,100
 ,Chitale Bandhu - Sweets & Ghee,,,,
-59,Alphonso Mango Pulp (Sweetened),1 KG,AUD 8.99,Chitale Alphonso Mango Pulp (Sweetened).jpg,100
+59,Kaju Elaichi Modak,250 g,,,
+,Kaju Amba Modak,250 g,,,
 60,Besan Laddu,250 g,AUD 7.49,Chitale Besan Ladoo.jpg,100
 61,Dink Laddu,250 g,AUD 7.49,Chitale Dink Ladoo.jpg,100
 62,Gulabjam,500 g,AUD 8.99,Chitale Gulabjam.jpg,100
 63,Shankarpali,200 g,AUD 4.50,Chitale Shankarpali.jpg,100
 64,Gauva Drink,150 ml,AUD 2.99,Chitale Guava Drink.jpg,100
 65,Mango Drink,150 ml,AUD 2.99,Chitale Mango Drink.jpg,100
-66,Ghee,1 L,AUD 20.99,Chitale Ghee.jpg,100
+66,Ghee,1 kg,AUD 20.99,Chitale Ghee.jpg,100
 ,Chitale Bandhu - Namkeen,,,,
 67,Bakarwadi,250 g,AUD 6.50,Chitale Bakarwadi.jpg,100
 68,Chana Chaat Samosa,200 g,AUD 4.50,Chitale Chana Chaat Samosa.jpg,100
 69,Masala Shev,200 g,AUD 4.50,Chitale Masala Shev.jpg,100
-70,Farsan,200 g,AUD 4.75,Chitale Farsan.jpg,100
+70,Farsan,400 g,AUD 4.75,Chitale Farsan.jpg,100
 71,Kadboli,200 g,AUD 4.95,Chitale Kadboli.jpg,100
 72,Chakali,200 g,AUD 4.95,Chitale Chakali.jpg,100
 73,Special Chivda,200 g,AUD 4.75,Chitale Special Chivda.jpg,100
@@ -92,8 +99,8 @@ id,name,description,price,image,stock
 81,Banana Chips Twisted Masala,200 g,AUD 4.50,Chitale Banana Chips Twisted Masala.jpg,100
 82,Banana Chips Spicy Masala,200 g,AUD 4.50,Chitale Banana Chips Spicy Masala.jpg,100
 83,Banana Chips Regular Salty,200 g,AUD 4.50,Chitale Banana Chips Regular Salty.jpg,100
-,Jahagirdar Foods ,,,,
-84,Nashik Chivda,200 g,AUD 4.50,Jahagirdar Nashik Chivda.jpg,100
+,Chakote,,,,
+,,,,,
 ,Hari Om Foods - Masalas ,,,,
 85,Kolhapuri Ghati Masala,100 g,AUD 6.50,Hari Om Kolhapuri Ghati Masala.jpg,100
 86,Fish Fry Masala,100 g,AUD 6.50,Hari Om Fish Fry Masala.jpg,100
