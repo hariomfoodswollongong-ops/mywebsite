@@ -21,14 +21,14 @@ id,name,description,price,image,stock
 18,Methi Khari ,200 g,AUD 3.69,Monginis Methi Khari.jpg,100
 19,Jeera Khari ,200 g,AUD 3.69,Monginis Jeera Khari.jpg,100
 20,Masala Khari,200 g,AUD 3.82,Monginis Masala Khari.jpg,100
-21,Twisted Masala Khari,200 g,,,
-22,Twisted Cheese Khari,200 g,,,
+21,Twisted Masala Khari,200 g,,,100
+22,Twisted Cheese Khari,200 g,,,100
 23,Coconut Almond Cookies,200 g,AUD 4.50,Monginis Coconut Almond Cookies.jpg,100
-24,Fruit Cookies,200 g,,,
-25,Surti Makhaniya,200 g,,,
-26,Krispy Bite,200 g,,,
+24,Fruit Cookies,200 g,,,100
+25,Surti Makhaniya,200 g,,,100
+26,Krispy Bite,200 g,,,100
 ,Sohum Udyog  - Flour,,,,
-27,Jowar Flour,500 g,,,
+27,Jowar Flour,500 g,,,100
 28,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
 29,Bajari Flour,500 g,AUD 4.50,Sohum Bajari Flour.jpg,100
 30,Suvasik Modak Flour,500 g,AUD 5.50,Sohum Suvasik Modak Flour.jpg,100
@@ -65,14 +65,14 @@ id,name,description,price,image,stock
 26,LaxmiNarayan Snacks,,,,
 27,Best (Poha) Chiwda,400 g,AUD 8.10,LaxmiNarayan Best Chiwda (Poha).jpg,100
 28,Cornflakes Chiwda,400 g,AUD 8.10,LaxmiNarayan Cornflakes Chiwda.jpg,100
-29,Potato Chiwda,400 g,,,
-30,Patal Poha Chiwda,250 g,,,
-,Sabu Flakes Chiwda,200 g,,,
-31,Best Farsan,500 g,,,
+29,Potato Chiwda,400 g,,,100
+30,Patal Poha Chiwda,250 g,,,100
+,Sabuflakes Chiwda,250 g,,,100
+31,Best Farsan,500 g,,,100
 32,Misal Farsan,250 g,AUD 5.00,LaxmiNarayan Misal Farsan.jpg,100
 33,Chitale Bandhu - Sweets & Ghee,,,,
-34,Kaju Elaichi Modak,250 g,,,
-35,Kaju Amba Modak,250 g,,,
+34,Kaju Elaichi Modak,250 g,,,100
+35,Kaju Amba Modak,250 g,,,100
 36,Besan Laddu,250 g,AUD 7.49,Chitale Besan Ladoo.jpg,100
 37,Dink Laddu,250 g,AUD 7.49,Chitale Dink Ladoo.jpg,100
 38,Gulabjam,500 g,AUD 8.99,Chitale Gulabjam.jpg,100
@@ -100,14 +100,21 @@ id,name,description,price,image,stock
 59,Banana Chips Spicy Masala,200 g,AUD 4.50,Chitale Banana Chips Spicy Masala.jpg,100
 ,Banana Chips Regular Salty,200 g,AUD 4.50,Chitale Banana Chips Regular Salty.jpg,100
 60,Chakote,,,,
-61,,,,,
-62,Hari Om Foods - Masalas ,,,,
+,Pav Butter,200 g,,,100
+,Marvel Twisted Khari,200 g,,,100
+,Kolhapuri Bhadang,200 g,,,100
+,Kolhapuri Jawar Chiwda,200 g,,,100
+,Chheda,,,,
+,Mix Farsan,150 g,,,100
+,Nylon Sev,150 g,,,100
+,Hari Om Foods - Masalas ,,,,
 63,Kolhapuri Ghati Masala,100 g,AUD 6.50,Hari Om Kolhapuri Ghati Masala.jpg,100
 64,Fish Fry Masala,100 g,AUD 6.50,Hari Om Fish Fry Masala.jpg,100
 65,Solapuri Kala Mutton Masala,100 g,AUD 6.50,Hari Om Solapuri Kala Mutton Masala.jpg,100
 66,Gavran Malvani Masala,100 g,AUD 6.50,Hari Om Gavran Malvani Masala.jpg,100
 ,Desai Bandhu,,,,
-67,Amar Handmade Mango Pulp,850 g,AUD 11.50,Desai Amar Handmade Alphonso Mango Pulp.jpg,100
+67,Amar Alphonso Mango Tidbites with Pulp,850 g,AUD 11.50,Desai Amar Handmade Alphonso Mango Pulp.jpg,100
+,Amar Alphonso Mango Pulp,850 g,,,100
 68,Suhana,,,,
 69,Paneer Butter Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Butter Masala.jpg,100
 70,Paneer Tikka Masala Spice Mix,50 g (NOW 10% OFF! WAS $ 3.25)            ,AUD 2.92,Suhana Paneer Tikka Masala.jpg,100
