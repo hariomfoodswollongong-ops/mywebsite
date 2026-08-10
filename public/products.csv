@@ -2,7 +2,7 @@ id,name,description,price,image,stock
 ,Kailas Bhel,,,,
 1,Chatpati Bhel Chat,250 g,AUD 4.99,Kailas Chatpati Bhel Chat.jpg,100
 2,Crispy & Crunchy Dry Bhel,200 g,AUD 4.50,Kailas Crispy & Crunchy Dry Bhel.jpg,100
-3,Misal Family Pack (Incl. Tarri & Farsan),400 g  (NOW 10% OFF! WAS $ 9.50)            ,AUD 8.55,Kailas MIsal Family Pack.jpg,100
+3,Misal Family Pack (Incl. Tarri & Farsan),400 g  ,AUD 9.50,Kailas MIsal Family Pack.jpg,100
 4,Farali  Potato Chivda,200 g,AUD 4.50,Kailas Farali Potato Chivda.jpg,100
 ,Monginis,,,,
 5,Milk Rusk,300 g,AUD 3.83,Monginis MIlk Rusk.jpg,100
@@ -13,29 +13,29 @@ id,name,description,price,image,stock
 10,Tiffin Cake (Butter Cake),30 g,AUD 1.00,Monginis Tiffin Cake (Butter Cake).jpg,100
 11,Fruit Bar Cake Veg,30 g,AUD 2.30,Monginis Fruit Bar Cake Veg.jpg,100
 12,Chocolate Bar Cake Veg,30 g,AUD 2.30,Monginis Chocolate Bar Cake Veg.jpg,100
-13,Chocolate Bar Veg,50 g,,,100
-14,Fruit Bar Veg,50 g,,,100
+13,Chocolate Bar Veg,50 g,,Monginis Chocolate Bar Veg.jpg,100
+14,Fruit Bar Veg,50 g,,Monginis Fruit Bar Veg.jpg,100
 15,Fruit Muffins (Single) Veg,30 g,AUD 0.90,Monginis Fruit Muffins Cake (Single) Veg.jpg,100
 16,Chocolate Muffins (Single) Veg,30 g,AUD 0.90,Monginis Choco Muffins Cake (Single) Veg.jpg,100
-17,Classic Plain Khari,200 g,AUD 3.69,,100
+17,Classic Plain Khari,200 g,AUD 3.69,Monginis Classic Plain Khari.jpg,100
 18,Methi Khari ,200 g,AUD 3.69,Monginis Methi Khari.jpg,100
 19,Jeera Khari ,200 g,AUD 3.69,Monginis Jeera Khari.jpg,100
 20,Masala Khari,200 g,AUD 3.82,Monginis Masala Khari.jpg,100
-21,Twisted Masala Khari,200 g,,,100
-22,Twisted Cheese Khari,200 g,,,100
+21,Twisted Masala Khari,200 g,,Monginis Twisted Masala Khari.jpg,100
+22,Twisted Cheese Khari,200 g,,Monginis Twisted Cheese Khari.jpg,100
 23,Coconut Almond Cookies,200 g,AUD 4.50,Monginis Coconut Almond Cookies.jpg,100
-24,Fruit Cookies,200 g,,,100
-25,Surti Makhaniya,200 g,,,100
-26,Krispy Bite,200 g,,,100
+24,Fruit Cookies,200 g,,Monginis Fruit Cookies.jpg,100
+25,Surti Makhaniya,200 g,,Monginis Surti Makhaniya.jpg,100
+26,Krispy Bite,200 g,,Monginis Krispy Bite.jpg,100
 ,Sohum Udyog  - Flour,,,,
-27,Jowar Flour,500 g,,,100
+27,Jowar Flour,500 g,,Sohum Jowar Flour.jpg,100
 28,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
 29,Bajari Flour,500 g,AUD 4.50,Sohum Bajari Flour.jpg,100
 30,Suvasik Modak Flour,500 g,AUD 5.50,Sohum Suvasik Modak Flour.jpg,100
 31,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 21.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
 32,Chakali Bhajani Flour,500 g,AUD 8.30,Sohum Chakali Bhajani Flour.jpg,100
 33,Thalipeeth Bhajani Flour,500 g,AUD 7.75,Sohum Thalipeeth Bhajani Flour.jpg,100
-34,Upwas Bhajani Flour,500 g,,,
+34,Upwas Bhajani Flour,500 g,,Sohum Upwas Bhajani Flour.jpg,
 35,Kokani Wada Flour,500 g,AUD 5.75,Sohum Kokani Wada Flour.jpg,100
 36,Kulith Flour,200 g,AUD 4.99,Sohum Kulith Flour.jpg,100
 37,Sattu (Roasted Gram) Flour,200 g,AUD 5.50,Sohum Sattu (Roasted Gram) Flour.jpg,100
@@ -56,8 +56,8 @@ id,name,description,price,image,stock
 ,Varhadi Mutton Rassa Masala,25 g,AUD 2.75,Prakash Varhadi Mutton Rassa Masala.jpg,100
 ,Kolhapuri Chicken Rassa Masala,25 g,AUD 2.75,Prakash Kolhapuri Chicken Rassa Masala.jpg,100
 20,Kolhapuri Chicken Sukka Masala,25 g,AUD 2.75,Prakash Kolhapuri Chicken Sukka Masala.jpg,100
-21,Kolhapuri Chicken Biryani Masala,25 g,,,
-22,Kolhapuri Mutton Biryani Masala,25 g,,,
+21,Kolhapuri Chicken Biryani Masala,25 g,AUD 2.75,Prakash Kolhapuri Chicken Biryani Masala.jpg,100
+22,Kolhapuri Mutton Biryani Masala,25 g,AUD 2.75,Prakash Kolhapuri Mutton Biryani Masala.jpg,100
 23,Kolhapuri Egg Rassa Masala,25 g,AUD 2.75,Prakash Kolhapuri Egg Rassa Masala.jpg,100
 24,Kolhapuri Misal Rassa Masala,25 g,AUD 2.75,Prakash Kolhapuri Misal Rassa Masala.jpg,100
 25,Kolhapuri Akha Masur Masala,25 g,AUD 2.75,Prakash Kolhapuri Akha Masur Masala.jpg,100
@@ -65,14 +65,14 @@ id,name,description,price,image,stock
 26,LaxmiNarayan Snacks,,,,
 27,Best (Poha) Chiwda,400 g,AUD 8.10,LaxmiNarayan Best Chiwda (Poha).jpg,100
 28,Cornflakes Chiwda,400 g,AUD 8.10,LaxmiNarayan Cornflakes Chiwda.jpg,100
-29,Potato Chiwda,400 g,,,100
-30,Patal Poha Chiwda,250 g,,,100
-,Sabuflakes Chiwda,250 g,,,100
-31,Best Farsan,500 g,,,100
+29,Potato Chiwda,400 g,AUD 8.10,LaxmiNarayan Potato Chiwda.jpg,100
+30,Patal Poha Chiwda,250 g,,LaxmiNarayan Patal Poha Chiwda.jpg,100
+,Sabuflakes Chiwda,250 g,,LaxmiNarayan Sabuflakes Chiwda.jpg,100
+31,Best Farsan,500 g,,LaxmiNarayan Best Farsan.jpg,100
 32,Misal Farsan,250 g,AUD 5.00,LaxmiNarayan Misal Farsan.jpg,100
 33,Chitale Bandhu - Sweets & Ghee,,,,
-34,Kaju Elaichi Modak,250 g,,,100
-35,Kaju Amba Modak,250 g,,,100
+34,Kaju Elaichi Modak,250 g,,Chitale Kaju Elaichi Modak.jpg,100
+35,Kaju Amba Modak,250 g,,Chitale Kaju Amba Modak.jpg,100
 36,Besan Laddu,250 g,AUD 7.49,Chitale Besan Ladoo.jpg,100
 37,Dink Laddu,250 g,AUD 7.49,Chitale Dink Ladoo.jpg,100
 38,Gulabjam,500 g,AUD 8.99,Chitale Gulabjam.jpg,100
@@ -100,13 +100,13 @@ id,name,description,price,image,stock
 59,Banana Chips Spicy Masala,200 g,AUD 4.50,Chitale Banana Chips Spicy Masala.jpg,100
 ,Banana Chips Regular Salty,200 g,AUD 4.50,Chitale Banana Chips Regular Salty.jpg,100
 60,Chakote,,,,
-,Pav Butter,200 g,,,100
-,Marvel Twisted Khari,200 g,,,100
-,Kolhapuri Bhadang,200 g,,,100
-,Kolhapuri Jawar Chiwda,200 g,,,100
+,Pav Butter,200 g,AUD 4.90,Chakote Cumin Pav Butter.jpg,100
+,Marvel Twisted Khari,200 g,AUD 4.90,Chakote Twisted Marvel Khari.jpg,100
+,Kolhapuri Bhadang,200 g,AUD 4.90,Chakote Kolhapuri Bhadang.jpg,100
+,Kolhapuri Jawar Chiwda,200 g,AUD 4.90,Chakote Jawar Chivda.jpg,100
 ,Chheda,,,,
-,Mix Farsan,150 g,,,100
-,Nylon Sev,150 g,,,100
+,Mix Farsan,150 g,,Chheda Mix Farsan.jpg,100
+,Nylon Sev,150 g,,Chheda Nylon Sev.jpg,100
 ,Hari Om Foods - Masalas ,,,,
 63,Kolhapuri Ghati Masala,100 g,AUD 6.50,Hari Om Kolhapuri Ghati Masala.jpg,100
 64,Fish Fry Masala,100 g,AUD 6.50,Hari Om Fish Fry Masala.jpg,100
@@ -114,7 +114,7 @@ id,name,description,price,image,stock
 66,Gavran Malvani Masala,100 g,AUD 6.50,Hari Om Gavran Malvani Masala.jpg,100
 ,Desai Bandhu,,,,
 67,Amar Alphonso Mango Tidbites with Pulp,850 g,AUD 11.50,Desai Amar Handmade Alphonso Mango Pulp.jpg,100
-,Amar Alphonso Mango Pulp,850 g,,,100
+,Amar Alphonso Mango Pulp,850 g,AUD 9.25,Desai Amar Alphonso Mango Pulp.jpg,100
 68,Suhana,,,,
 69,Paneer Butter Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Butter Masala.jpg,100
 70,Paneer Tikka Masala Spice Mix,50 g (NOW 10% OFF! WAS $ 3.25)            ,AUD 2.92,Suhana Paneer Tikka Masala.jpg,100
