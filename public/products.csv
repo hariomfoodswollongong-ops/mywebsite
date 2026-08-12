@@ -24,18 +24,18 @@ id,name,description,price,image,stock
 21,Twisted Masala Khari,200 g,,Monginis Twisted Masala Khari.jpg,100
 22,Twisted Cheese Khari,200 g,,Monginis Twisted Cheese Khari.jpg,100
 23,Coconut Almond Cookies,200 g,AUD 4.50,Monginis Coconut Almond Cookies.jpg,100
-24,Fruit Cookies,200 g,,Monginis Fruit Cookies.jpg,100
+24,Fruit Cookies,200 g,AUD 4.50,Monginis Fruit Cookies.jpg,100
 25,Surti Makhaniya,200 g,,Monginis Surti Makhaniya.jpg,100
 26,Krispy Bite,200 g,,Monginis Krispy Bite.jpg,100
 ,Sohum Udyog  - Flour,,,,
-27,Jowar Flour,500 g,,Sohum Jowar Flour.jpg,100
+27,Jowar Flour,500 g,AUD 4.75,Sohum Jowar Flour.jpg,100
 28,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
 29,Bajari Flour,500 g,AUD 4.50,Sohum Bajari Flour.jpg,100
 30,Suvasik Modak Flour,500 g,AUD 5.50,Sohum Suvasik Modak Flour.jpg,100
 31,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 21.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
 32,Chakali Bhajani Flour,500 g,AUD 8.30,Sohum Chakali Bhajani Flour.jpg,100
 33,Thalipeeth Bhajani Flour,500 g,AUD 7.75,Sohum Thalipeeth Bhajani Flour.jpg,100
-34,Upwas Bhajani Flour,500 g,,Sohum Upwas Bhajani Flour.jpg,
+34,Upwas Bhajani Flour,500 g,AUD 8.15,Sohum Upwas Bhajani Flour.jpg,
 35,Kokani Wada Flour,500 g,AUD 5.75,Sohum Kokani Wada Flour.jpg,100
 36,Kulith Flour,200 g,AUD 4.99,Sohum Kulith Flour.jpg,100
 37,Sattu (Roasted Gram) Flour,200 g,AUD 5.50,Sohum Sattu (Roasted Gram) Flour.jpg,100
@@ -117,9 +117,9 @@ id,name,description,price,image,stock
 104,Amar Alphonso Mango Pulp,850 g,AUD 9.25,Desai Amar Alphonso Mango Pulp.jpg,100
 ,Suhana,,,,
 105,Paneer Butter Masala Spice Mix,50 g,AUD 3.25,Suhana Paneer Butter Masala.jpg,100
-106,Paneer Tikka Masala Spice Mix,50 g (NOW 10% OFF! WAS $ 3.25)            ,AUD 2.92,Suhana Paneer Tikka Masala.jpg,100
+106,Paneer Tikka Masala Spice Mix,50 g ,AUD 3.25,Suhana Paneer Tikka Masala.jpg,100
 107,Mutter Paneer Masala Spice Mix,50 g,AUD 3.25,Suhana Mutter Paneer Masala.jpg,100
-108,Butter Chicken Masala Spice Mix,50 g (NOW 10% OFF! WAS $ 3.25)            ,AUD 2.92,Suhana Butter Chicken Mix.jpg,100
+108,Butter Chicken Masala Spice Mix,50 g ,AUD 3.25,Suhana Butter Chicken Mix.jpg,100
 109,Schezwan Fried Rice Indo-Chinese Mix,20 g,AUD 1.99,Suhana Schezwan Fried Rice.jpg,100
 110,Paneer Chilly Mix,50 g,AUD 3.50,Suhana Paneer Chilli.jpg,100
 111,Chicken Chilly Dry Mix,50 g,AUD 3.50,Suhana Chicken Chilli Dry.jpg,100
