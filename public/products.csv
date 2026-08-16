@@ -3,7 +3,7 @@ id,name,description,price,image,stock
 1,Kaju Elaichi Modak,250 g,,Chitale Kaju Elaichi Modak.jpg,100
 2,Kaju Amba Modak,250 g,,Chitale Kaju Amba Modak.jpg,100
 3,Bakarwadi,250 g,AUD 6.50,Chitale Bakarwadi.jpg,100
-4,Farsan,200 g,AUD 4.75,Chitale Farsan.jpg,100
+4,Farsan,200 g,AUD 4.50,Chitale Farsan.jpg,100
 5,Ghee,1 KG,AUD 20.99,Chitale Ghee.jpg,100
 ,Monginis,,,,
 6,Jeera Rusk,300 g,AUD 3.83,Monginis Jeera Rusk.jpg,100
@@ -13,16 +13,16 @@ id,name,description,price,image,stock
 10,Tiffin Cake (Butter Cake),30 g,AUD 1.00,Monginis Tiffin Cake (Butter Cake).jpg,100
 11,Fruit Bar Cake Veg,30 g,AUD 2.30,Monginis Fruit Bar Cake Veg.jpg,100
 12,Chocolate Bar Cake Veg,30 g,AUD 2.30,Monginis Chocolate Bar Cake Veg.jpg,100
-13,Chocolate Bar Veg,50 g,,Monginis Chocolate Bar Veg.jpg,100
-14,Fruit Bar Veg,50 g,,Monginis Fruit Bar Veg.jpg,100
+13,Chocolate Bar Veg,50 g,AUD 2.00,Monginis Chocolate Bar Veg.jpg,100
+14,Fruit Bar Veg,50 g,AUD 2.00,Monginis Fruit Bar Veg.jpg,100
 15,Fruit Muffins (Single) Veg,30 g,AUD 0.90,Monginis Fruit Muffins Cake (Single) Veg.jpg,100
 16,Chocolate Muffins (Single) Veg,30 g,AUD 0.90,Monginis Choco Muffins Cake (Single) Veg.jpg,100
 17,Classic Plain Khari,200 g,AUD 3.69,Monginis Classic Plain Khari.jpg,100
 18,Methi Khari ,200 g,AUD 3.69,Monginis Methi Khari.jpg,100
 19,Jeera Khari ,200 g,AUD 3.69,Monginis Jeera Khari.jpg,100
 20,Masala Khari,200 g,AUD 3.82,Monginis Masala Khari.jpg,100
-21,Twisted Masala Khari,200 g,,Monginis Twisted Masala Khari.jpg,100
-22,Twisted Cheese Khari,200 g,,Monginis Twisted Cheese Khari.jpg,100
+21,Twisted Masala Khari,200 g,AUD 3.99,Monginis Twisted Masala Khari.jpg,100
+22,Twisted Cheese Khari,200 g,AUD 3.99,Monginis Twisted Cheese Khari.jpg,100
 23,Coconut Almond Cookies,200 g,AUD 4.50,Monginis Coconut Almond Cookies.jpg,100
 24,Fruit Cookies,200 g,AUD 4.50,Monginis Fruit Cookies.jpg,100
 25,Surti Makhaniya,200 g,,Monginis Surti Makhaniya.jpg,100
@@ -33,7 +33,7 @@ id,name,description,price,image,stock
 29,Suvasik Modak Flour,500 g,AUD 5.50,Sohum Suvasik Modak Flour.jpg,100
 30,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 21.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
 31,Thalipeeth Bhajani Flour,500 g,AUD 7.75,Sohum Thalipeeth Bhajani Flour.jpg,100
-32,Upwas Bhajani Flour,500 g,AUD 8.15,Sohum Upwas Bhajani Flour.jpg,
+32,Upwas Bhajani Flour,500 g,AUD 8.15,Sohum Upwas Bhajani Flour.jpg,100
 ,Sohum Udyog  - Health Foods,,,,
 33,Rajgira Laddu,200 g,AUD 5.50,Sohum Rajgira Laddu.jpg,100
 34,Rajgira Rolls,200 g,AUD 5.50,Sohum Rajgira Rolls.jpg,100
@@ -50,8 +50,8 @@ id,name,description,price,image,stock
 43,Best (Poha) Chiwda,400 g,AUD 8.10,LaxmiNarayan Best Chiwda (Poha).jpg,100
 44,Cornflakes Chiwda,400 g,AUD 8.10,LaxmiNarayan Cornflakes Chiwda.jpg,100
 45,Potato Chiwda,400 g,AUD 8.10,LaxmiNarayan Potato Chiwda.jpg,100
-46,Patal Poha Chiwda,250 g,,LaxmiNarayan Patal Poha Chiwda.jpg,100
-47,Sabuflakes Chiwda,250 g,,LaxmiNarayan Sabuflakes Chiwda.jpg,100
+46,Patal Poha Chiwda,250 g,AUD 4.75,LaxmiNarayan Patal Poha Chiwda.jpg,100
+47,Sabuflakes Chiwda,250 g,AUD 4.75,LaxmiNarayan Sabuflakes Chiwda.jpg,100
 48,Best Farsan,500 g,AUD 8.25,LaxmiNarayan Best Farsan.jpg,100
 ,Chakote,,,,
 49,Pav Butter,200 g,AUD 4.90,Chakote Cumin Pav Butter.jpg,100
