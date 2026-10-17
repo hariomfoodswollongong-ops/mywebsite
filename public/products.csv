@@ -1,25 +1,42 @@
 id,name,description,price,image,stock
 ,Chitale Bandhu ,,,,100
-1,Kaju Amba (Mango) Barfi ,250 g,AUD 14.00,,100
-2,Keshar Katli,250 g,AUD 15.00,,100
-3,Kaju Elaichi Katli,250 g,AUD 14.00,,100
-4,Kaju Badam Delight,250 g,AUD 14.50,,100
-5,Chirote,100 g,AUD 10.50,,100
-6,Shankarpali (Sweet),200 g,AUD 8.50,,100
-7,Karanji (Dry Coconut),150 g,AUD 10.50,,100
-8,Mini Gul Poli,95 g,AUD 8.00,,100
-9,Mini Puran Poli,150 g,AUD 8.50,,100
-10,Besan Ladoo,250 g,AUD 10.00,,100
-11,Orange Soanpapadi,200 g,AUD 5.50,,100
-12,Mango Soanpapadi,200 g,AUD 5.50,,100
-13,Royal Anjeer Soanpapadi,200 g,AUD 6.50,,100
-14,Gulabjam,500 g,AUD 8.99,,100
-15,Patal Poha Chiwada,200 g,AUD 7.50,,100
-16,Chakli,200 g,AUD 8.50,,100
-17,Kadboli,200 g,AUD 8.00,,100
-18,Bakarwadi,250 g ,AUD 5.99 (Diwali Special Offer),Chitale Bakarwadi.jpg,100
+1,Kaju Amba (Mango) Barfi ,250 g,AUD 14.00,Chitale Kaju Amba Barfi.jpg,100
+2,Keshar Kaju Katli,250 g,AUD 15.00,Chitale Kesar Kaju Katli.jpg,100
+3,Kaju Elaichi Katli,250 g,AUD 14.00,Chitale Kaju Elaichi Katli.jpg,100
+4,Kaju Badam Delight,250 g,AUD 14.50,Chitale Kaju Badam Delight.jpg,100
+5,Chirote,100 g,AUD 10.50,Chitale Chirote.jpg,100
+6,Shankarpali (Sweet),200 g,AUD 8.50,Chitale Shankarpali.jpg,100
+7,Karanji (Dry Coconut),150 g,AUD 10.50,Chitale Karanji.jpg,100
+8,Mini Gul Poli,95 g,AUD 8.00,Chitale Mini Gul Poli.jpg,100
+9,Mini Puran Poli,150 g,AUD 8.50,Chitale Mini Puran Poli.jpg,100
+10,Besan Ladoo,250 g,AUD 10.00,Chitale Besan Ladoo,100
+11,Orange Soanpapadi,200 g,AUD 5.50,Chitale Orange Soanpapdi.jpg,100
+12,Mango Soanpapadi,200 g,AUD 5.50,Chitale Mango Soanpapdi.jpg,100
+13,Royal Anjeer Soanpapadi,200 g,AUD 6.50,Chitale Royal Anjeer Sonapapdi.jpg,100
+14,Gulabjam,500 g,AUD 8.99,Chitale Gulabjam.jpg,100
+15,Patal Poha Chivda,200 g,AUD 7.50,Chitale Patal Poha Chivda.jpg,100
+16,Chakli,200 g,AUD 8.50,Chitale Chakali.jpg,100
+17,Kadboli,200 g,AUD 8.00,Chitale Kadboli.jpg,100
+18,Bakarwadi,250 g ,AUD 5.99 ,Chitale Bakarwadi.jpg,100
 19,Farsan,200 g,AUD 4.75,Chitale Farsan.jpg,100
-20,Ghee,1 KG,AUD 20.99,Chitale Ghee.jpg,100
+20,Khari Bundi,200 g,AUD 4.75,Chitale Khari Bundi.jpg,100
+21,Cornflakes Chivda,200 g,AUD 4.75,Chitale Cornflakes Chivda.jpg,100
+22,Lite Chivda,200 g,AUD 4.75,Chitale Lite Chivda.jpg,100
+23,Chana Chat Samosa,200 g,AUD 4.75,Chitale Chana Chaat Samosa.jpg,100
+24,Ghee,1 KG,AUD 20.99,Chitale Ghee.jpg,100
+,Diwali Special ,,,,
+25,Anarase (Ready to Eat),250 g,AUD 21.00,Anarase (Ready to Eat).jpg,100
+26,Anarase (Ready Flour),250 g,AUD 16.00,Anarase (Ready Flour).jpg,100
+27,Rangoli ,1 KG (700 g White & 50 g 6 Colours),,Rangoli.jpg,100
+28,Deep Shakti Oil,1 L,AUD 7.99,Deep Shakti Oil.jpg,100
+29,Diwali Lamp,,,Diwali Lamp.jpg,100
+30,Diwali Lantern,,,Diwali Lantern.jpg,100
+31,Diwali Tortoise Candle,,,Diwali Tortoise Candle.jpg,100
+32,Diwali Candle Holder 1,,,Diwali Candle Holder1.jpg,100
+33,Diwali Candle Holder 2,,,Diwali Candle Holder2.jpg,100
+34,Small Clay Pot,,,Small Clay Pot.jpg,100
+35,Big Clay Pot,,,Big Clay Pot.jpg,
+36,Dhoop Cones,"100 g Available in - Parijat, Jasmine. Champa. Keshar, Ghee Pooja Batti, Multi-flower",,Dhoop Cones.jpg,100
 ,Monginis,,,,
 6,Jeera Rusk,300 g,AUD 3.83,Monginis Jeera Rusk.jpg,100
 7,Elaichi Rusk,300 g,AUD 3.83,Monginis Elaichi Rusk.jpg,100
