@@ -1,10 +1,25 @@
 id,name,description,price,image,stock
-,Chitale Bandhu ,,,,
-1,Kaju Elaichi Modak,210 g | 21 Modaks,AUD 15.50,Chitale Kaju Elaichi Modak.jpg,100
-2,Kaju Amba Modak,210 g | 21 Modaks,AUD 15.50,Chitale Kaju Amba Modak.jpg,100
-3,Bakarwadi,250 g,AUD 6.50,Chitale Bakarwadi.jpg,100
-4,Farsan,200 g,AUD 4.75,Chitale Farsan.jpg,100
-5,Ghee,1 KG,AUD 20.99,Chitale Ghee.jpg,100
+1,Chitale Bandhu ,,,,
+2,Kaju Amba (Mango) Barfi ,250 g,,,
+3,Keshar Katli,250 g,,,
+4,Kaju Elaichi Katli,250 g,,,
+5,Kaju Badam Delight,250 g,,,
+6,Chirote,100 g,,,
+7,Shankarpali (Sweet),200 g,,,
+8,Karanji (Dry Coconut),150 g,,,
+9,Mini Gul Poli,95 g,,,
+10,Mini Puran Poli,150 g,,,
+11,Besan Ladoo,250 g,,,
+12,Orange Soanpapadi,200 g,,,
+13,Mango Soanpapadi,200 g,,,
+14,Royal Anjeer Soanpapadi,200 g,,,
+15,Gulabjam,500 g,,,
+16,Patal Poha Chiwada,200 g,,,
+17,Chakli,200 g,,,
+18,Kadboli,200 g,,,
+19,Bakarwadi,250 g,AUD 6.50,Chitale Bakarwadi.jpg,100
+20,Farsan,200 g,AUD 4.75,Chitale Farsan.jpg,100
+21,Ghee,1 KG,AUD 20.99,Chitale Ghee.jpg,100
 ,Monginis,,,,
 6,Jeera Rusk,300 g,AUD 3.83,Monginis Jeera Rusk.jpg,100
 7,Elaichi Rusk,300 g,AUD 3.83,Monginis Elaichi Rusk.jpg,100
