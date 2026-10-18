@@ -21,7 +21,7 @@ id,name,description,price,image,stock
 19,Cornflakes Chivda,200 g,AUD 4.75,Chitale Cornflakes Chivda.jpg,100
 20,Lite Chivda,200 g,AUD 4.75,Chitale Lite Chivda.jpg,100
 21,Chana Chat Samosa,200 g,AUD 4.75,Chitale Chana Chaat Samosa.jpg,100
-22,Gift Box,Each,AUD 3.50,Chitale Diwali Gift Box.jpg,100
+22,Diwali Special Gift Box,Each,AUD 3.50,Chitale Diwali Gift Box.jpg,100
 ,Diwali Special ,,,,
 24,Anarase (Ready to Eat),250 g,AUD 21.00,Anarase (Ready to Eat).jpg,100
 25,Anarase (Ready Flour),250 g,AUD 16.00,Anarase (Ready Flour).jpg,100
@@ -30,8 +30,8 @@ id,name,description,price,image,stock
 28,Diwali Lamp,,AUD 12.00,Diwali Lamp.jpg,100
 29,Diwali Lantern,,AUD 15.00,Diwali Lantern.jpg,100
 30,Diwali Tortoise Candle,,AUD 9.00,Diwali Tortoise Candle.jpg,100
-31,Diwali Candle Holder 1,,AUD 11.00,Diwali Candle Holder1.jpg,100
-32,Diwali Candle Holder 2,,AUD 11.00,Diwali Candle Holder2.jpg,100
+31,Diwali Candle Holder 1,,AUD 12.00,Diwali Candle Holder1.jpg,100
+32,Diwali Candle Holder 2,,AUD 12.00,Diwali Candle Holder2.jpg,100
 33,Small Clay Pot,,AUD 11.50,Small Clay Pot.jpg,100
 34,Big Clay Pot,,AUD 13.50,Big Clay Pot.jpg,100
-35,Dhoop Cones,"100 g  40-50 pieces approx. Available in - Parijat, Jasmine. Champa, Keshar, Ghee Pooja Batti, Multi-flower",AUD 6.50,Dhoop Cones.jpg,100
+35,Dhoop Cones,"100 g  40-50 pcs/pack. Also available - Jasmine, Champa, Keshar, Ghee Pooja Batti, Multi-flower ",AUD 6.50,Dhoop Cones.jpg,100
