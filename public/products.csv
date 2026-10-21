@@ -21,7 +21,8 @@ id,name,description,price,image,stock
 19,Cornflakes Chivda,200 g,AUD 4.75,Chitale Cornflakes Chivda.jpg,100
 20,Lite Chivda,200 g,AUD 4.75,Chitale Lite Chivda.jpg,100
 21,Chana Chat Samosa,200 g,AUD 4.75,Chitale Chana Chaat Samosa.jpg,100
-22,Diwali Special Gift Box,Each,AUD 3.50,Chitale Diwali Gift Box.jpg,100
+22,Farsan,200 g,AUD 4.75,Chitale Farsan.jpg,100
+23,Diwali Special Gift Box,Each,AUD 3.50,Chitale Diwali Gift Box.jpg,100
 ,Diwali Special ,,,,
 24,Anarase (Ready to Eat),250 g,AUD 21.00,Anarase (Ready to Eat).jpg,100
 25,Anarase (Ready Flour),250 g,AUD 16.00,Anarase (Ready Flour).jpg,100
@@ -37,3 +38,19 @@ id,name,description,price,image,stock
 35,Dhoop Cones,"100 g  40-50 pcs/pack. Available - Parijat, Jasmine, Champa, Kesar, Multi-flower ",AUD 6.50,Dhoop Cones.jpg,100
 36,Ghee Pooja Batti,100 g,AUD 6.50,Ghee Pooja Batti.jpg,100
 37,Devbhakti Incense Sticks,"Available - Mogra, Chandan, Kewda",AUD 3.50,Devbhakti Incense Sticks.jpg,100
+,LaxmiNarayan Snacks,,,,
+38,Best (Poha) Chiwda,400 g,AUD 8.10,LaxmiNarayan Best Chiwda (Poha).jpg,100
+39,Best Farsan,500 g,AUD 8.25,LaxmiNarayan Best Farsan.jpg,100
+,Kailas Bhel,,,,
+40,Sukhi (Dry) Bhel,200 g,AUD 4.50,Kailas Crispy & Crunchy Dry Bhel.jpg,100
+41,Chatpati Bhel Chat,250 g,AUD 4.99,Kailas Chatpati Bhel Chat.jpg,100
+42,Misal Family Pack,400 g,AUD 7.99,Kailas MIsal Family Pack.jpg,100
+43,Farali Potato Chivda,200 g,AUD 4.50,Kailas Farali Potato Chivda.jpg,100
+,Chakote,,,,
+44,Pav Butter,200 g,AUD 4.90,Chakote Cumin Pav Butter.jpg,100
+45,Marvel Twisted Khari,200 g,AUD 4.90,Chakote Twisted Marvel Khari.jpg,100
+46,Kolhapuri Bhadang,200 g,AUD 4.90,Chakote Kolhapuri Bhadang.jpg,100
+47,Kolhapuri Jawar Chiwda,200 g,AUD 4.90,Chakote Jawar Chivda.jpg,100
+,Sohum Udyog  - Flour,,,,
+48,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
+49,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 21.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
