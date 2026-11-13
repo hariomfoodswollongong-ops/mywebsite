@@ -1,10 +1,10 @@
 id,name,description,price,image,stock
-,Chitale Bandhu - Sweets,,,,100
+,Chitale Bandhu - Sweets,,,,
 1,Kaju Badam Delight,250 g,AUD 14.50,Chitale Kaju Badam Delight.jpg,100
 2,Chirote,100 g,AUD 10.50,Chitale Chirote.jpg,100
-,Shankarpali (Sweet),200 g,AUD 8.50,Chitale Shankarpali.jpg,100
-,Royal Anjeer Soanpapdi,200 g,AUD 6.50,Chitale Royal Anjeer Sonapapdi.jpg,100
-,Gulabjam,500 g,AUD 8.99,Chitale Gulabjam.jpg,100
+3,Shankarpali (Sweet),200 g,AUD 8.50,Chitale Shankarpali.jpg,100
+4,Royal Anjeer Soanpapdi,200 g,AUD 6.50,Chitale Royal Anjeer Sonapapdi.jpg,100
+5,Gulabjam,500 g,AUD 8.99,Chitale Gulabjam.jpg,100
 ,Chitale Bandhu - Namkeen,,,,
 6,Chakli,200 g,AUD 8.50,Chitale Chakli.jpg,100
 7,Kadboli,200 g,AUD 8.00,Chitale Kadboli.jpg,100
@@ -15,37 +15,37 @@ id,name,description,price,image,stock
 12,Special Chivda,200 g,AUD 4.75,Chitale Special Chivda.jpg,100
 13,Potato Chivda,200 g,AUD 4.75,Chitale Potato Chivda.jpg,100
 14,Spicy Potato Chivda,200 g,AUD 4.75,Chitale Spicy Potato Chivda.jpg,100
-,Cornflakes Chivda,200 g,AUD 4.75,Chitale Cornflakes Chivda.jpg,100
-,Lite Chivda,200 g,AUD 4.75,Chitale Lite Chivda.jpg,100
-,Masala Shev,200 g,AUD 4.75,Chitale Masala Shev.jpg,100
-,Shev,200 g,AUD 4.75,Chitale Shev.jpg,100
+16,Cornflakes Chivda,200 g,AUD 4.75,Chitale Cornflakes Chivda.jpg,100
+17,Lite Chivda,200 g,AUD 4.75,Chitale Lite Chivda.jpg,100
+18,Masala Shev,200 g,AUD 4.75,Chitale Masala Shev.jpg,100
+19,Shev,200 g,AUD 4.75,Chitale Shev.jpg,100
 ,Chitale Bandhu - Chips,200 g,,,
-,Banana Chips Twisted Masala,200 g,AUD 4.50,Chitale Banana Chips Twisted Masala.jpg,100
-,Banana Chips Spicy Masala,200 g,AUD 4.50,Chitale Banana Chips Spicy Masala.jpg,100
-,Banana Chips Regular Salty,200 g,AUD 4.50,Chitale Banana Chips Regular Salty.jpg,100
-,Banana Chips Salt & Pepper,200 g,AUD 4.50,Chitale Banana Chips Salt & Pepper.jpg,100
+20,Banana Chips Twisted Masala,200 g,AUD 4.50,Chitale Banana Chips Twisted Masala.jpg,100
+21,Banana Chips Spicy Masala,200 g,AUD 4.50,Chitale Banana Chips Spicy Masala.jpg,100
+22,Banana Chips Regular Salty,200 g,AUD 4.50,Chitale Banana Chips Regular Salty.jpg,100
+23,Banana Chips Salt & Pepper,200 g,AUD 4.50,Chitale Banana Chips Salt & Pepper.jpg,100
 ,LaxmiNarayan Snacks,,,,
-,Best (Poha) Chiwda,400 g,AUD 8.10,LaxmiNarayan Best Chiwda (Poha).jpg,100
-,Cornflakes Chiwda,400 g,AUD 8.10,LaxmiNarayan Cornflakes Chiwda.jpg,100
-,Potato Chiwda,400 g,AUD 8.10,LaxmiNarayan Potato Chiwda.jpg,100
-38,Patal Poha Chiwda,250 g,AUD 4.75,LaxmiNarayan Patal Poha Chiwda.jpg,100
-,Sabuflakes Chiwda,250 g,AUD 4.75,LaxmiNarayan Sabuflakes Chiwda.jpg,100
-,Best Farsan,500 g,AUD 8.25,LaxmiNarayan Best Farsan.jpg,100
+24,Best (Poha) Chiwda,400 g,AUD 8.10,LaxmiNarayan Best Chiwda (Poha).jpg,100
+25,Cornflakes Chiwda,400 g,AUD 8.10,LaxmiNarayan Cornflakes Chiwda.jpg,100
+26,Potato Chiwda,400 g,AUD 8.10,LaxmiNarayan Potato Chiwda.jpg,100
+27,Patal Poha Chiwda,250 g,AUD 4.75,LaxmiNarayan Patal Poha Chiwda.jpg,100
+28,Sabuflakes Chiwda,250 g,AUD 4.75,LaxmiNarayan Sabuflakes Chiwda.jpg,100
+29,Best Farsan,500 g,AUD 8.25,LaxmiNarayan Best Farsan.jpg,100
 ,Kailas Bhel,,,,
-,Crispy & Crunchy Dry Bhel,200 g,AUD 4.50,Kailas Crispy & Crunchy Dry Bhel.jpg,100
-39,Chatpati Bhel Chat,250 g,AUD 4.99,Kailas Chatpati Bhel Chat.jpg,100
-,Misal Family Pack,400 g,AUD 7.99,Kailas MIsal Family Pack.jpg,100
-40,Farali Potato Chivda,200 g,AUD 4.50,Kailas Farali Potato Chivda.jpg,100
-41,Chakote,,,,
-42,Pav Butter,200 g,AUD 4.90,Chakote Cumin Pav Butter.jpg,100
-43,Marvel Twisted Khari,200 g,AUD 4.90,Chakote Twisted Marvel Khari.jpg,100
-,Kolhapuri Bhadang,200 g,AUD 4.90,Chakote Kolhapuri Bhadang.jpg,100
-44,Kolhapuri Jawar Chiwda,200 g,AUD 4.90,Chakote Jawar Chivda.jpg,100
-45,Sohum Udyog  - Flour,,,,
-46,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
-47,Suvasik Modak Flour,500 g,AUD 5.50,Sohum Suvasik Modak Flour.jpg,100
-,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 21.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
-48,Chakali Bhajani Flour,500 g,AUD 8.99,Sohum Chakali Bhajani Flour.jpg,100
+30,Crispy & Crunchy Dry Bhel,200 g,AUD 4.50,Kailas Crispy & Crunchy Dry Bhel.jpg,100
+31,Chatpati Bhel Chat,250 g,AUD 4.99,Kailas Chatpati Bhel Chat.jpg,100
+32,Misal Family Pack,400 g,AUD 7.99,Kailas MIsal Family Pack.jpg,100
+33,Farali Potato Chivda,200 g,AUD 4.50,Kailas Farali Potato Chivda.jpg,100
+,Chakote,,,,
+34,Pav Butter,200 g,AUD 4.90,Chakote Cumin Pav Butter.jpg,100
+35,Marvel Twisted Khari,200 g,AUD 4.90,Chakote Twisted Marvel Khari.jpg,100
+36,Kolhapuri Bhadang,200 g,AUD 4.90,Chakote Kolhapuri Bhadang.jpg,100
+37,Kolhapuri Jawar Chiwda,200 g,AUD 4.90,Chakote Jawar Chivda.jpg,100
+,Sohum Udyog  - Flour,,,,
+38,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
+39,Suvasik Modak Flour,500 g,AUD 5.50,Sohum Suvasik Modak Flour.jpg,100
+40,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 21.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
+41,Chakali Bhajani Flour,500 g,AUD 8.99,Sohum Chakali Bhajani Flour.jpg,100
 ,Thalipeeth Bhajani Flour,500 g,AUD 7.75,Sohum Thalipeeth Bhajani Flour.jpg,100
 ,Kokani Wada Flour,500 g,AUD 5.75,Sohum Kokani Wada Flour.jpg,100
 ,Kulith Flour,200 g,AUD 4.99,Sohum Kulith Flour.jpg,100
