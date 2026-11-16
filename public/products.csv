@@ -45,55 +45,83 @@ id,name,description,price,image,stock
 37,Pav Butter,200 g,AUD 4.90,Chakote Cumin Pav Butter.jpg,100
 38,Marvel Twisted Khari,200 g,AUD 4.90,Chakote Twisted Marvel Khari.jpg,100
 39,Kolhapuri Bhadang,200 g,AUD 4.90,Chakote Kolhapuri Bhadang.jpg,100
-40,Kolhapuri Jawar Chiwda,200 g,AUD 4.90,Chakote Jawar Chivda.jpg,100
 ,Sohum Udyog  - Flour,,,,
-41,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
-42,Suvasik Modak Flour,500 g,AUD 5.50,Sohum Suvasik Modak Flour.jpg,100
-43,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 21.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
-44,Chakali Bhajani Flour,500 g,AUD 8.99,Sohum Chakali Bhajani Flour.jpg,100
-45,Thalipeeth Bhajani Flour,500 g,AUD 7.75,Sohum Thalipeeth Bhajani Flour.jpg,100
-46,Kokani Wada Flour,500 g,AUD 5.75,Sohum Kokani Wada Flour.jpg,100
-47,Kulith Flour,200 g,AUD 4.99,Sohum Kulith Flour.jpg,100
-48,Gahu Satva,200 g,AUD 5.50,Sohum Gahu Satva.jpg,100
-49,Nachani Satva,200 g,AUD 5.50,Sohum Nachani Satva.jpg,100
+40,Jowar Flour,1 KG,AUD 8.99,Sohum Jowar Flour.jpg,100
+41,Suvasik Modak Flour,500 g,AUD 5.50,Sohum Suvasik Modak Flour.jpg,100
+42,Lokwan Chakki Fresh Whole Wheat Flour,5 KG,AUD 21.99,Sohum Lokwan Chakki Fresh Flour.jpg,100
+43,Chakali Bhajani Flour,500 g,AUD 8.99,Sohum Chakali Bhajani Flour.jpg,100
+44,Thalipeeth Bhajani Flour,500 g,AUD 7.75,Sohum Thalipeeth Bhajani Flour.jpg,100
+45,Kokani Wada Flour,500 g,AUD 5.75,Sohum Kokani Wada Flour.jpg,100
+46,Kulith Flour,200 g,AUD 4.99,Sohum Kulith Flour.jpg,100
+47,Gahu Satva,200 g,AUD 5.50,Sohum Gahu Satva.jpg,100
+48,Nachani Satva,200 g,AUD 5.50,Sohum Nachani Satva.jpg,100
 ,"Sohum Udyog  - Health Foods, Papad & Chutney",,,,
-50,Dry Dates Powder,250 g,AUD 9.75,Sohum Dry Dates Powder.jpg,100
-51,Rajgira Laddu,200 g,AUD 5.50,Sohum Rajgira Laddu.jpg,100
-52,Rajgira Rolls,200 g,AUD 5.50,Sohum Rajgira Rolls.jpg,100
-53,Sabudana (Sago) Papadi,100 g,AUD 3.50,Sohum Sabudana (Sago) Papadi.jpg,100
-54,Potato Mirgunda Papad,200 g,AUD 5.45,Sohum Potato Mirgunda Papad.jpg,100
-55,Sandagi Mirchi,100 g,AUD 5.50,Sohum Sandagi Mirchi.jpg,100
-56,Goda Masala,100 g,AUD 5.50,Sohum Goda Masala.jpg,100
+49,Dry Dates Powder,250 g,AUD 9.75,Sohum Dry Dates Powder.jpg,100
+50,Rajgira Laddu,200 g,AUD 5.50,Sohum Rajgira Laddu.jpg,100
+51,Rajgira Rolls,200 g,AUD 5.50,Sohum Rajgira Rolls.jpg,100
+52,Sabudana (Sago) Papadi,100 g,AUD 3.50,Sohum Sabudana (Sago) Papadi.jpg,100
+53,Potato Mirgunda Papad,200 g,AUD 5.45,Sohum Potato Mirgunda Papad.jpg,100
+54,Sandagi Mirchi,100 g,AUD 5.50,Sohum Sandagi Mirchi.jpg,100
+55,Goda Masala,100 g,AUD 5.50,Sohum Goda Masala.jpg,100
 ,Bedekar - Pickles,,,,
-57,Mango Pickle,400 g,AUD 5.75,Bedekar Mango Pickle.jpg,100
-58,Vadu Mango Pickle,400 g,AUD 5.75,Bedekar Vadu Mango Pickle.jpg,100
-59,Mango Sweet Pickle,400 g,AUD 5.75,Bedekar Mango Pickle Sweet.jpg,100
-60,Mixed Pickle,400 g,AUD 5.75,Bedekar Mixed Pickle.jpg,100
-61,Green Chilli Pickle,400 g,AUD 5.75,Bedekar Green Chilli Pickle.jpg,100
-62,Lime Pickle,400 g,AUD 5.75,Bedekar Lime Pickle.jpg,100
-63,Lime Sweet Pickle,400 g,AUD 5.75,Bedekar Lime Pickle Sweet.jpg,100
-64,Avakkai Pickle,400 g,AUD 5.75,Bedekar Avakkai Pickle.jpg,100
-65,Mango Lime Pickle,400 g,AUD 5.75,Bedekar Mango Lime Pickle.jpg,100
-66,Mango Chilli Pickle,400 g,AUD 5.75,Bedekar Mango Chilli Pickle.jpg,100
-67,Lime Chilli Pickle,400 g,AUD 5.75,Bedekar Lime Chilli Pickle.jpg,100
-68,Chhunda,400 g,AUD 5.75,Bedekar Chhunda.jpg,100
+56,Mango Pickle,400 g,AUD 5.75,Bedekar Mango Pickle.jpg,100
+57,Vadu Mango Pickle,400 g,AUD 5.75,Bedekar Vadu Mango Pickle.jpg,100
+58,Mango Sweet Pickle,400 g,AUD 5.75,Bedekar Mango Pickle Sweet.jpg,100
+59,Mixed Pickle,400 g,AUD 5.75,Bedekar Mixed Pickle.jpg,100
+60,Green Chilli Pickle,400 g,AUD 5.75,Bedekar Green Chilli Pickle.jpg,100
+61,Lime Pickle,400 g,AUD 5.75,Bedekar Lime Pickle.jpg,100
+62,Lime Sweet Pickle,400 g,AUD 5.75,Bedekar Lime Pickle Sweet.jpg,100
+63,Avakkai Pickle,400 g,AUD 5.75,Bedekar Avakkai Pickle.jpg,100
+64,Mango Lime Pickle,400 g,AUD 5.75,Bedekar Mango Lime Pickle.jpg,100
+65,Mango Chilli Pickle,400 g,AUD 5.75,Bedekar Mango Chilli Pickle.jpg,100
+66,Lime Chilli Pickle,400 g,AUD 5.75,Bedekar Lime Chilli Pickle.jpg,100
+67,Chhunda,400 g,AUD 5.75,Bedekar Chhunda.jpg,100
 ,Bedekar - Chuney,,,,
-69,Groundnut Chutney,100 g,AUD 4.50,Bedekar Groundnut Chutney.jpg,100
-70,Garlic Chutney,100 g,AUD 4.50,Bedekar Garlic Chutney.jpg,100
+68,Groundnut Chutney,100 g,AUD 4.50,Bedekar Groundnut Chutney.jpg,100
+69,Garlic Chutney,100 g,AUD 4.50,Bedekar Garlic Chutney.jpg,100
 ,Desai Bandhu,,,,
-71,Amar Hand Made Mango Pulp,850 g,AUD 11.50,Desai Amar Handmade Alphonso Mango Pulp.jpg,100
-72,Amar Machine Made Mango Pulp,850 g,AUD 9.25,Desai Amar Alphonso Mango Pulp.jpg,100
+70,Amar Hand Made Mango Pulp,850 g,AUD 11.50,Desai Amar Handmade Alphonso Mango Pulp.jpg,100
+71,Amar Machine Made Mango Pulp,850 g,AUD 9.25,Desai Amar Alphonso Mango Pulp.jpg,100
 ,K-Pra Foods,,,,
-73,Zatpat Kolhapuri Masala,50 g,AUD 3.75,K-Pra Zatpat Kolhapuri Masala.jpg,100
-74,Zatpat Malvani Masala,50 g,AUD 3.75,K-Pra Zatpat Malvani Masala.jpg,100
-75,Zatpat Usal Masala,50 g,AUD 3.75,K-Pra Zatpat Usal Masala.jpg,100
-76,Zatpat Shev Bhaji Masala,50 g,AUD 3.75,K-Pra Zatpat Shev Bhaji Masala.jpg,100
-77,Goda Masala,100 g,AUD 5.50,K-Pra Goda Masala.jpg,100
-78,Kairi Pickle Masala,100 g,AUD 5.25,K-Pra Kairi Pickle Masala.jpg,100
-79,Lime Pickle Masala,100 g,AUD 5.25,K_Pra Lime Pickle Masala.jpg,100
-80,Chilli Pickle Masala,100 g,AUD 5.25,K-Pra Chilli Pickle Masala.jpg,100
-81,Garlic Chutney,100 g,AUD 4.50,K-Pra Garlic Chutney.jpg,100
-82,Metkut,100 g,AUD 4.50,K-Pra Metkut.jpg,100
-83,Thalipeeth Bhajani Flour,500 g,AUD 8.25,K-Pra Thalipeeth Bhajani Flour.jpg,100
-84,Upwas Bhajani,500 g,AUD 8.75,K-Pra Upwas Bhajani Flour.jpg,100
+72,Zatpat Kolhapuri Masala,50 g,AUD 3.75,K-Pra Zatpat Kolhapuri Masala.jpg,100
+73,Zatpat Malvani Masala,50 g,AUD 3.75,K-Pra Zatpat Malvani Masala.jpg,100
+74,Zatpat Usal Masala,50 g,AUD 3.75,K-Pra Zatpat Usal Masala.jpg,100
+75,Zatpat Shev Bhaji Masala,50 g,AUD 3.75,K-Pra Zatpat Shev Bhaji Masala.jpg,100
+76,Goda Masala,100 g,AUD 5.50,K-Pra Goda Masala.jpg,100
+77,Kairi Pickle Masala,100 g,AUD 5.25,K-Pra Kairi Pickle Masala.jpg,100
+78,Lime Pickle Masala,100 g,AUD 5.25,K_Pra Lime Pickle Masala.jpg,100
+79,Chilli Pickle Masala,100 g,AUD 5.25,K-Pra Chilli Pickle Masala.jpg,100
+80,Garlic Chutney,100 g,AUD 4.50,K-Pra Garlic Chutney.jpg,100
+81,Metkut,100 g,AUD 4.50,K-Pra Metkut.jpg,100
+82,Thalipeeth Bhajani Flour,500 g,AUD 8.25,K-Pra Thalipeeth Bhajani Flour.jpg,100
+83,Upwas Bhajani,500 g,AUD 8.75,K-Pra Upwas Bhajani Flour.jpg,100
 ,Sawai Masala,,,,
+84,Sawai Khandeshi Shev Bhaji Masala,25 g,,Sawai Khandeshi Shev Bhaji Masala.jpg,100
+85,Sawai Varhadi Chicken Rassa Masala,25 g,,Sawai Varhadi Chicken Rassa Masala.jpg,100
+86,Sawai Saoji Chicken Rassa Masala,25 g,,Sawai Saoji Chicken Rassa Masala.jpg,100
+87,Sawai Nashik Misal Rassa Masala,25 g,,Sawai Nashik Misal Rassa Masala.jpg,100
+88,Sawai Kolhapuri Misal Rassa Masala,25 g,,Sawai Kolhapuri Misal Rassa Masala.jpg,100
+89,Sawai Kolhapuri Chicken Biryani Masala,25 g,,Sawai Kolhapuri Chicken Biryani Masala.jpg,100
+90,Sawai Kolhapuri Mutton Biryani Masala,25 g,,Sawai Kolhapuri Mutton Biryani Masala.jpg,100
+91,Sawai Kolhapuri Pandhara Rassa Masala,25 g,,Sawai Kolhapuri Pandhara Rassa Masala.jpg,100
+92,Sawai Kolhapuri Akkha Masoor Masala,25 g,,Sawai Kolhapuri Akkha Masoor Masala.jpg,100
+93,Sawai Kolhapuri Anda Rassa Masala,25 g,,Sawai Kolhapuri Anda Rassa Masala.jpg,100
+94,Sawai Kolhapuri Chicken Sukka Masala,25 g,,Sawai Kolhapuri Chicken Sukka Masala.jpg,100
+95,Sawai Kolhapuri Mutton Sukka Masala,25 g,,Sawai Kolhapuri Mutton Sukka Masala.jpg,100
+96,Sawai Kolhapuri Mutton Rassa Masala,25 g,,Sawai Kolhapuri Mutton Rassa Masala.jpg,100
+97,Sawai Dhangari Mutton Kalvan,25 g,,Sawai Dhangari Mutton Kalvan.jpg,100
+98,Sawai Groundnut Chutney,100 g,,Sawai Groundnut Chutney.jpg ,100
+99,Sawai Karala Chutney,100 g,,Sawai Karala Chutney.jpg,100
+100,Sawai Khobra Lasun Chutney,100 g,,Sawai Khobra Lasun Chutney.jpg,100
+101,Sawai Maharashtrian Lal Watan,50 g,,Sawai Maharashtrian Lal Watan.jpg,100
+102,Sawai Maharashtrian Kala Watan,50 g,,Sawai Maharashtrian Kala Watan.jpg,100
+103,Sawai Premium Kala Masala,200 g,,Sawai Premium Kala Masala.jpg,100
+104,Sawai Kanda Lasun Masala,200 g,,Sawai Kanda Lasun Masala.jpg,100
+105,Sawai Kolhapuri Thecha,100 g,,Sawai Kolhapuri Thecha.jpg,100
+106,Sawai Khandeshi Mutton Rassa Masala,25 g,,Sawai Khandeshi Mutton Rassa Masala.jpg,100
+107,Sawai Khandeshi Chicken Rassa Masala,25 g,,Sawai Khandeshi Chicken Rassa Masala.jpg,100
+108,Sawai Malavani Chicken Rassa Masala,25 g,,Sawai Malavani Chicken Rassa Masala.jpg,100
+109,Sawai Malvani Fish Fry Masala,25 g,,Sawai Malvani Fish Fry Masala.jpg,100
+110,Sawai Malvani Fish Rassa Masala,25 g,,Sawai Malvani Fish Rassa Masala.jpg,100
+111,Sawai Saoji Mutton Rassa Masala,25 g,,Sawai Saoji Mutton Rassa Masala.jpg,100
+112,Sawai Varahadi Mutton Rassa Masala,25 g,,Sawai Varahadi Mutton Rassa Masala.jpg,100
