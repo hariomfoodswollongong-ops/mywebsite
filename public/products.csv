@@ -8,8 +8,8 @@ id,name,description,price,image,stock
 6,Cornflakes Chivda,200 g,AUD 4.75,Chitale Cornflakes Chivda.jpg,100
 7,Lite Chivda,200 g,AUD 4.75,Chitale Lite Chivda.jpg,100
 8,Bakarwadi,250 g  ,AUD 6.50,Chitale Bakarwadi.jpg,100
-9,Chakli,200 g,AUD 8.50,Chitale Chakli.jpg,100
-10,Kadboli,200 g,AUD 8.00,Chitale Kadboli.jpg,100
+9,Chakli,200 g,AUD 8.50,Chitale Chakli.jpg,0
+10,Kadboli,200 g,AUD 8.00,Chitale Kadboli.jpg,0
 11,Masala Shev,200 g,AUD 4.75,Chitale Masala Shev.jpg,100
 12,Shev,200 g,AUD 4.75,Chitale Shev.jpg,100
 13,Khari Bundi,200 g,AUD 4.75,Chitale Khari Bundi.jpg,100
@@ -20,13 +20,13 @@ id,name,description,price,image,stock
 17,Banana Chips Salt & Pepper,200 g,AUD 4.50,Chitale Banana Chips Salt & Pepper.jpg,100
 ,Chitale Bandhu - Sweets,,,,
 18,Kaju Badam Delight,250 g,AUD 14.50,Chitale Kaju Badam Delight.jpg,100
-19,Chirote,100 g,AUD 10.50,Chitale Chirote.jpg,100
+19,Chirote,100 g,AUD 10.50,Chitale Chirote.jpg,0
 20,Shankarpali (Sweet),200 g,AUD 8.50,Chitale Shankarpali.jpg,100
 21,Royal Anjeer Soanpapdi,200 g,AUD 6.50,Chitale Royal Anjeer Sonapapdi.jpg,100
 22,Gulabjam,500 g,AUD 8.99,Chitale Gulabjam.jpg,100
 ,Monginis,,,,
-23,Fruit Bar Cake Veg,100 g,AUD 2.30,Monginis Fruit Bar Cake Veg.jpg,100
-24,Chocolate Bar Cake Veg,100 g,AUD 2.30,Monginis Chocolate Bar Cake Veg.jpg,100
+23,Fruit Bar Cake Veg,100 g,AUD 2.99,Monginis Fruit Bar Cake Veg.jpg,100
+24,Chocolate Bar Cake Veg,100 g,AUD 2.99,Monginis Chocolate Bar Cake Veg.jpg,100
 25,Coconut Almond Cookies,200 g,AUD 4.50,Monginis Coconut Almond Cookies.jpg,100
 26,Jeera Rusk,300 g,AUD 3.83,Monginis Jeera Rusk.jpg,100
 ,LaxmiNarayan Snacks,,,,
@@ -96,33 +96,33 @@ id,name,description,price,image,stock
 82,Thalipeeth Bhajani Flour,500 g,AUD 8.25,K-Pra Thalipeeth Bhajani Flour.jpg,100
 83,Upwas Bhajani,500 g,AUD 8.75,K-Pra Upwas Bhajani Flour.jpg,100
 ,Sawai Masala,,,,
-84,Sawai Kolhapuri Tambada Rassa Masala,25 g,,Sawai Kolhapuri Tambada Rassa Masala.jpg,100
-85,Sawai Kolhapuri Pandhara Rassa Masala,25 g,,Sawai Kolhapuri Pandhara Rassa Masala.jpg,100
-86,Sawai Khandeshi Shev Bhaji Masala,25 g,,Sawai Khandeshi Shev Bhaji Masala.jpg,100
-87,Sawai Groundnut Chutney,100 g,,Sawai Groundnut Chutney.jpg ,100
-88,Sawai Karala Chutney,100 g,,Sawai Karala Chutney.jpg,100
-89,Sawai Khobra Lasun Chutney,100 g,,Sawai Khobra Lasun Chutney.jpg,100
-90,Sawai Premium Kala Masala,200 g,,Sawai Premium Kala Masala.jpg,100
-91,Sawai Kanda Lasun Masala,200 g,,Sawai Kanda Lasun Masala.jpg,100
-92,Sawai Kolhapuri Thecha,100 g,,Sawai Kolhapuri Thecha.jpg,100
-93,Sawai Maharashtrian Lal Watan,50 g,,Sawai Maharashtrian Lal Watan.jpg,100
-94,Sawai Maharashtrian Kala Watan,50 g,,Sawai Maharashtrian Kala Watan.jpg,100
-95,Sawai Nashik Misal Rassa Masala,25 g,,Sawai Nashik Misal Rassa Masala.jpg,100
-96,Sawai Kolhapuri Misal Rassa Masala,25 g,,Sawai Kolhapuri Misal Rassa Masala.jpg,100
-97,Sawai Kolhapuri Chicken Biryani Masala,25 g,,Sawai Kolhapuri Chicken Biryani Masala.jpg,100
-98,Sawai Kolhapuri Mutton Biryani Masala,25 g,,Sawai Kolhapuri Mutton Biryani Masala.jpg,100
-99,Sawai Dhangari Mutton Kalvan,25 g,,Sawai Dhangari Mutton Kalvan.jpg,100
-100,Sawai Khandeshi Chicken Rassa Masala,25 g,,Sawai Khandeshi Chicken Rassa Masala.jpg,100
-101,Sawai Khandeshi Mutton Rassa Masala,25 g,,Sawai Khandeshi Mutton Rassa Masala.jpg,100
-102,Sawai Malvani Chicken Rassa Masala,25 g,,Sawai Malvani Chicken Rassa Masala.jpg,100
-103,Sawai Malvani Fish Fry Masala,25 g,,Sawai Malvani Fish Fry Masala.jpg,100
-104,Sawai Malvani Fish Rassa Masala,25 g,,Sawai Malvani Fish Rassa Masala.jpg,100
-105,Sawai Saoji Chicken Rassa Masala,25 g,,Sawai Saoji Chicken Rassa Masala.jpg,100
-106,Sawai Saoji Mutton Rassa Masala,25 g,,Sawai Saoji Mutton Rassa Masala.jpg,100
-107,Sawai Varhadi Chicken Rassa Masala,25 g,,Sawai Varhadi Chicken Rassa Masala.jpg,100
-108,Sawai Varhadi Mutton Rassa Masala,25 g,,Sawai Varhadi Mutton Rassa Masala.jpg,100
-109,Sawai Kolhapuri Chicken Sukka Masala,25 g,,Sawai Kolhapuri Chicken Sukka Masala.jpg,100
-110,Sawai Kolhapuri Mutton Sukka Masala,25 g,,Sawai Kolhapuri Mutton Sukka Masala.jpg,100
-111,Sawai Kolhapuri Mutton Rassa Masala,25 g,,Sawai Kolhapuri Mutton Rassa Masala.jpg,100
-112,Sawai Kolhapuri Akkha Masoor Masala,25 g,,Sawai Kolhapuri Akkha Masoor Masala.jpg,100
-113,Sawai Kolhapuri Anda Rassa Masala,25 g,,Sawai Kolhapuri Anda Rassa Masala.jpg,100
+84,Sawai Kolhapuri Tambada Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Kolhapuri Tambada Rassa Masala.jpg,100
+85,Sawai Kolhapuri Pandhara Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Kolhapuri Pandhara Rassa Masala.jpg,100
+86,Sawai Khandeshi Shev Bhaji Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Khandeshi Shev Bhaji Masala.jpg,100
+87,Sawai Groundnut Chutney,100 g,AUD 4.50,Sawai Groundnut Chutney.jpg ,100
+88,Sawai Karala Chutney,100 g,AUD 4.50,Sawai Karala Chutney.jpg,100
+89,Sawai Khobra Lasun Chutney,100 g,AUD 4.50,Sawai Khobra Lasun Chutney.jpg,100
+90,Sawai Premium Kala Masala,200 g,AUD 6.50,Sawai Premium Kala Masala.jpg,100
+91,Sawai Kanda Lasun Masala,200 g,AUD 6.50,Sawai Kanda Lasun Masala.jpg,100
+92,Sawai Kolhapuri Thecha,100 g,AUD 4.50,Sawai Kolhapuri Thecha.jpg,100
+93,Sawai Maharashtrian Lal Watan,50 g,AUD 2.99,Sawai Maharashtrian Lal Watan.jpg,0
+94,Sawai Maharashtrian Kala Watan,50 g,AUD 2.99,Sawai Maharashtrian Kala Watan.jpg,0
+95,Sawai Nashik Misal Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Nashik Misal Rassa Masala.jpg,100
+96,Sawai Kolhapuri Misal Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Kolhapuri Misal Rassa Masala.jpg,100
+97,Sawai Kolhapuri Chicken Biryani Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Kolhapuri Chicken Biryani Masala.jpg,100
+98,Sawai Kolhapuri Mutton Biryani Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Kolhapuri Mutton Biryani Masala.jpg,100
+99,Sawai Dhangari Mutton Kalvan,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Dhangari Mutton Kalvan.jpg,100
+100,Sawai Khandeshi Chicken Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Khandeshi Chicken Rassa Masala.jpg,100
+101,Sawai Khandeshi Mutton Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Khandeshi Mutton Rassa Masala.jpg,100
+102,Sawai Malvani Chicken Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Malvani Chicken Rassa Masala.jpg,100
+103,Sawai Malvani Fish Fry Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Malvani Fish Fry Masala.jpg,100
+104,Sawai Malvani Fish Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Malvani Fish Rassa Masala.jpg,100
+105,Sawai Saoji Chicken Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Saoji Chicken Rassa Masala.jpg,100
+106,Sawai Saoji Mutton Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Saoji Mutton Rassa Masala.jpg,100
+107,Sawai Varhadi Chicken Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Varhadi Chicken Rassa Masala.jpg,100
+108,Sawai Varhadi Mutton Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Varhadi Mutton Rassa Masala.jpg,100
+109,Sawai Kolhapuri Chicken Sukka Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Kolhapuri Chicken Sukka Masala.jpg,100
+110,Sawai Kolhapuri Mutton Sukka Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Kolhapuri Mutton Sukka Masala.jpg,100
+111,Sawai Kolhapuri Mutton Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Kolhapuri Mutton Rassa Masala.jpg,100
+112,Sawai Kolhapuri Akkha Masoor Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Kolhapuri Akkha Masoor Masala.jpg,100
+113,Sawai Kolhapuri Anda Rassa Masala,25 g (ANY 2 $2.50),AUD 2.75 ,Sawai Kolhapuri Anda Rassa Masala.jpg,100
